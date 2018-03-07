@@ -970,7 +970,7 @@
 	</namespace>
 
 	<namespace id = "game_messages">
-		<translation id = "steel_smelter_no_production_headline"		value = "Huta Żelaza - spadek wydajności"/>
+		<translation id = "steel_smelter_no_production_headline"		value = "Huta Stali - spadek wydajności"/>
 		<translation id = "steel_smelter_no_production"				value = "Nastąpił spadek wydajności produkcji sztabek stali. Dostarcz więcej drewna i/lub węgla, by zwiększyć wydajność ich produkcji."/>
 		<translation id = "mill_no_production_headline"				value = "Młyn - spadek wydajności"/>
 		<translation id = "mill_no_production"						value = "Nastąpił spadek wydajności produkcji mąki. Dostarcz więcej mrówkorzeni, by zwiększyć wydajność jej produkcji."/>
@@ -1221,7 +1221,7 @@
 		<translation id="hydraulics_switch_headline"   			 		value="Przełącznik Hydrauliczny"/>
 		<translation id="hydraulics_switch"   			 				value="W zależności od ustawienia pozwala na przepływ ciśnienia wzdłuż albo wszerz."/>
 		<translation id="crafting_room_steel_smelter_headline"   		value="Huta Stali"/>
-		<translation id="crafting_room_steel_smelter"   			 	value="Produkuje sztabki stali z węgla i rudy żelaza."/>
+		<translation id="crafting_room_steel_smelter"   			 	value="Produkuje sztabki stali z węgla i żelaza."/>
 		<translation id="mouse_trap_headline"   			 			value="Pułapka na Gryzonie"/>
 		<translation id="mouse_trap"   			 						value="Klatka z zapadką na gryzonie. Do działania wymaga wrzucenia do niej jednego mrówkorzenia."/>
 		<translation id="prison_room_prison_bars_headline"   			value="Więzienne Kraty"/>
