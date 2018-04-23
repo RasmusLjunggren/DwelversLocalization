@@ -1,0 +1,1372 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<localization name="Russian" extension="ru" typeface="Georgia">
+	<namespace id ="menu">
+		<namespace id ="general">
+			<namespace id ="create_game">
+				<translation id = "map_seed" 					value = "Зерно карты"/>		
+				<translation id = "map_width" 					value = "Ширина карты"/>
+				<translation id = "map_height" 					value = "Высота карты"/>
+				<translation id = "map_depth" 					value = "Глубина карты"/>
+				<translation id = "map_size_unit" 				value = "(в блоках)"/>
+				<translation id = "num_portals" 				value = "Количество порталов"/>
+				<translation id = "dark_mother_location_x" 		value = "Позиция Тёмной матери по координатам X"/>
+				<translation id = "dark_mother_location_y" 		value = "Позиция Тёмной матери по координатам Y"/>
+				<translation id = "dark_mother_location_height" value = "Позиция Тёмной матери по высоте"/>
+
+				<translation id = "no_creatures" 				value = "Нет существ"/>
+				<translation id = "game_difficulty" 			value = "Сложность игры"/>
+				<translation id = "new_creative_game" 			rev="2"		value = "Мирная игра"/>
+				<translation id = "new_easy_game" 				value = "Лёгкая игра"/>
+				<translation id = "new_normal_game" 			value = "Нормальная игра"/>
+				<translation id = "new_hard_game" 				value = "Тяжёлая игра"/>
+				<translation id = "new_impossible_game" 		value = "Невозможная игра"/>
+				<translation id = "enable_endless_flow_mode" 	value = "Включить бесконечный режим"/>
+				<translation id = "enable_pause" 				value = "Включить паузу"/>
+				<translation id = "enable_progression_mode" 	value = "Включить режим прогресса"/>
+				<translation id = "enable_cyclotaur_maze" 		value = "Включить лабиринт циклотавров"/>
+				<translation id = "cheating_mode_enabled" 		value = "Включить читы"/>
+
+				<translation id = "creature_level_min" 			value = "Минимальный уровень существ"/>
+				<translation id = "creature_level_max" 			value = "Максимальный уровень существ"/>
+				<translation id = "water_amount" 				value = "Количество воды"/>
+				<translation id = "lava_amount" 				value = "Количество лавы"/>
+				<translation id = "editor_level_type_random" 		value = "Тип карты: Случайная"/>
+				<translation id = "editor_level_type_rock" 			value = "Тип карты: Камень"/>
+				<translation id = "editor_level_type_solid_rock" 	value = "Тип карты: Твёрдый камень"/>
+				
+			</namespace>
+
+			<translation id = "leave_level" 					value = "Покинуть этот уровень"/>
+			<translation id = "leave_level_confirm" 			value = "Да, я хочу покинуть этот уровень"/>
+			<translation id = "main_menu" 						value = "Главное меню"/>
+			<translation id = "start_game" 						value = "Начать игру"/>
+			<translation id = "campaign_game" 					value = "Кампания"/>
+			<translation id = "skirmish_game" 					value = "Схватка"/>
+			<translation id = "resume_game" 					value = "Возобновить игру"/>
+			<translation id = "quit_game" 						value = "Выйти из игры"/>
+			<translation id = "confirm_quit_game" 				value = "Да, я хочу выйти"/>
+			
+			<translation id = "game_time_played"				value = "Времени в игре: %s1:%s2:%s3"/>
+			<translation id = "current_map_seed"				value = "Зерно этой карты: %s1"/>
+		</namespace>
+
+		<namespace id ="main">
+			<translation id = "load_game_editor" 	value = "Загрузить карту редактора"/>
+			<translation id = "load_game" 			value = "Загрузить игру"/>
+			<translation id = "load_game_demo" 		value = "Загрузить игру (Недоступно в демо-версии)"/>
+			<translation id = "save_game_editor" 	value = "Сохранить карту редактора"/>
+			<translation id = "save_game" 			value = "Сохранить игру"/>
+			<translation id = "save_game_demo" 		value = "Сохранить игру (Недоступно в демо-версии)"/>
+		</namespace>
+
+		<namespace id ="save_game">
+			<translation id = "create_new" 						value = "--- Создать новое сохранение ---"/>
+			<translation id = "create_new_editor" 				value = "--- Создать новую карту редактора ---"/>
+			<translation id = "name_savegame" 					value = "Название сохранения"/>
+			<translation id = "saving_game"						value = "Сохраняю игру..."/>
+			<translation id = "loading_game" 					value = "Загружаю игру..."/> 
+			<translation id = "couldnt_save_game" 				value = "Игра не может быть сохранена!"/>
+			<translation id = "confirm_delete_save_game" 		value = "Да, я хочу удалить эту сохранённую игру."/>
+			<translation id = "delete_save_game" 				value = "Удалить сохранённую игру"/>
+			<translation id = "confirm_load_game"	 			value = "Да, я хочу загрузить сохранённую игру."/>
+		</namespace>
+
+		<namespace id ="editor">
+			<translation id = "title" 				value = "Редактор"/>
+			<namespace id ="new_map">
+				<translation id = "title" 			value = "Создать новую карту"/>
+				<translation id = "create_map" 		value = "Создать карту"/>
+			</namespace>
+			
+			<namespace id ="load_map">
+				<translation id = "title" 			value = "Загрузить карту"/>
+			</namespace>
+		</namespace>
+
+		<namespace id ="credits">
+			<translation id = "title" 										value = "Титры"/>
+			<translation id = "lead_programmer_and_game_designer" 			value = "Ведущий программист и гейм-дизайнер"/>		
+			<translation id = "co_executive_producers" 						value = "Исполнительные сопродюсеры"/>
+			<translation id = "programmers" 								value = "Программисты"/>
+			<translation id = "game_designers" 								value = "Гейм-дизайнеры"/>
+			<translation id = "creature_artists" 							value = "Художники существ"/>
+			<translation id = "3d_artists" 									value = "3D-художники"/>
+			<translation id = "animations" 									value = "Анимация"/>
+			<translation id = "2d_artists" 									value = "2D-художники"/>
+			<translation id = "ui_designers" 								value = "Дизайнеры интерфейса"/>		
+			<translation id = "story_line" 									value = "Сюжет"/>
+			<translation id = "music" 										value = "Музыка"/>			
+			<translation id = "sound_fx" 									value = "Звуковые  эффекты"/>
+			<translation id = "creature_voice_actor" 						value = "Озвучка существ"/>		
+			<translation id = "translation_and_proofreading" 				value = "Перевод и вычитка"/>
+			<translation id = "contributors" 								value = "Также нам помогали"/>		
+			<translation id = "special_thanks" 								value = "Особая благодарность"/>
+		</namespace>
+		
+		<namespace id = "set_keys">
+			<translation id = "scroll_camera_forward" 			value = "Передвинуть камеру вперёд"/>
+			<translation id = "scroll_camera_backward" 			value = "Передвинуть камеру назад"/>
+			<translation id = "scroll_camera_left" 				value = "Передвинуть камеру налево"/>
+			<translation id = "scroll_camera_right" 			value = "Передвинуть камеру направо"/>
+			<translation id = "rotate_camera_left" 				value = "Повернуть камеру налево"/>
+			<translation id = "rotate_camera_right" 			value = "Повернуть камеру направо"/>
+			<translation id = "tilt_camera_forward" 			value = "Наклонить камеру вперёд"/>
+			<translation id = "tilt_camera_backward" 			value = "Наклонить камеру назад"/>
+			<translation id = "zoom_in_on_headquarters" 		value = "Приблизить к комнате Тёмной матери"/>
+			<translation id = "zoom_in_camera" 					value = "Приблизить камеру"/>
+			<translation id = "zoom_out_camera" 				value = "Отдалить камеру"/>
+			<translation id = "open_radial_menu" 				value = "Открыть радиальное меню"/>
+			<translation id = "toggle_map_view" 				value = "Переключить вид карты"/>
+			<translation id = "increase_game_speed" 			value = "Увеличить скорость игры"/>
+			<translation id = "decrease_game_speed" 			value = "Уменьшить скорость игры"/>
+			<translation id = "editor_switch_owner" 			value = "Поменять владельца (режим Редактора)"/>
+			<translation id = "editor_change_creature_level" 	value = "Поменять уровень существа (режим Редактора)"/>
+		</namespace>
+
+		<namespace id ="sound">
+			<translation id = "soundfx_enabled" 			value = "Звуковые эффекты"/>
+			<translation id = "soundfx_volume" 				value = "Громкость звуковых эффектов"/>
+			<translation id = "music_enabled" 				value = "Музыка"/>
+			<translation id = "music_volume" 				value = "Громкость музыки"/>
+			<translation id = "dark_mother_enabled" 		value = "Голос Тёмной матери"/>
+			<translation id = "dark_mother_volume" 			value = "Громкость голоса Тёмной матери"/>
+		</namespace>
+
+		<namespace id ="graphics">
+			<translation id = "shadows_environment_enabled" value = "Тени от окружения"/>
+			<translation id = "shadows_creature_enabled" 	value = "Тени от существ"/>
+			<translation id = "viewing_distance" 			value = "Дистанция обзора"/>
+			<translation id = "viewing_distance_unit" 		value = "(в блоках)"/>
+			<translation id = "fps_limit" 					value = "Кадры в секунду"/>
+			<translation id = "fps_limit_unfocused" 		value = "Кадры в секунду (если игра неактивна)"/>
+			<translation id = "brightness" 					value = "Яркость"/>
+			<translation id = "particles" 					value = "Частицы"/>
+		</namespace>
+
+		<namespace id ="set_keys">
+			<translation id = "key_already_assigned" 				value = "Эта кнопка уже назначена"/>
+		</namespace>	
+		
+		<namespace id ="achievements">
+			<translation id = "title" 								value = "Достижения"/>
+			<translation id = "new_achievement_unlocked" 			value = "Открыто достижение"/>
+			<translation id = "difficulty_easy" 					value = "Сложность: лёгкая"/>
+			<translation id = "difficulty_medium" 					value = "Сложность: средняя"/>
+			<translation id = "difficulty_hard" 					value = "Сложность: тяжёлая"/>
+			<translation id = "lock_all_achievements" 				value = "Сбросить все достижения"/>
+			<translation id = "lock_all_achievements_confirm" 		value = "Да, сбросить все достижения!"/>
+		</namespace>
+
+		<namespace id = "options">
+			<translation id = "headline" 							value = "Настройки"/>
+			<translation id = "graphics" 							value = "Графика"/>
+			<translation id = "sounds" 								value = "Звуки"/>
+			<translation id = "controls" 							value = "Управление"/>
+			<translation id = "misc" 								value = "Разное"/>
+			<translation id = "set_keys" 							value = "Назначить кнопки"/>
+			<translation id = "reset_keys"	 						value = "Сбросить кнопки"/>
+			<translation id = "reset_keys_confirm"	 				value = "Да, сбросить все кнопки!"/>
+			<translation id = "enter_key" 							value = "Нажмите кнопку"/>
+			<translation id = "map_scroll_speed" 					value = "Скорость прокрутки карты с клавиатуры"/>
+			<translation id = "keyboard_map_rotation_speed" 		value = "Скорость поворота карты с клавиатуры"/>
+			<translation id = "keyboard_rotation_hand_axis" 		value = "Поворот вокруг оси руки при помощи клавиатуры"/>
+			<translation id = "mouse_rotation_hand_axis" 			value = "Поворот вокруг оси руки при помощи мыши"/>
+			<translation id = "invert_mouse_x" 						value = "Инверсия камеры (ось X)"/>
+			<translation id = "invert_mouse_y" 						value = "Инверсия камеры (ось Y)"/>
+			<translation id = "screen_edge_map_scroll" 				value = "Прокрутка карты по краю экрана"/>
+			<translation id = "screen_edge_map_scroll_speed" 		value = "Скорость прокрутки карты по краю экрана"/>
+			<translation id = "lock_camera_rotation" 				value = "Зафиксировать угол поворота камеры"/>
+			<translation id = "possession_turn_sensitivity" 		value = "Скорость поворота в режиме контроля"/>
+			<translation id = "possession_invert_mouse_x" 			value = "Инверсия мыши в режиме контроля"/>
+		</namespace>
+
+
+		<namespace id ="misc">
+			<translation id = "enable_cursor_clipping" 				value = "Зафиксировать курсор (при работе в оконном режиме)"/>
+			<translation id = "enter_menu_when_game_not_in_focus" 	value = "Выйти в меню, если игра неактивна"/>
+			<translation id = "show_full_creature_health_bars" 		value = "Показывать полные полоски здоровья существ"/>
+		</namespace>
+		
+		<namespace id ="messages">
+			<translation id = "early_access_warning" 				value = "Предупреждение о раннем доступе: Игра до сих пор находится в состоянии альфа-версии раннего доступа. Вы можете столкнуться с ошибками. Игра может вылетать, что может раздражать вас. Если у вас будет такая возможность, пожалуйста, сообщите о возникших проблемах на форум Dwelvers, и мы постараемся решить их как можно быстрее!"/>
+		</namespace>
+	</namespace>
+
+	<namespace id = "info_bar">
+		<namespace id = "creature">
+			<translation id = "enemy" 						value = "Это вражеское существо. Подробности неизвестны."/>
+			<translation id = "health" 						value = "Здоровье"/>
+			<translation id = "job" 						value = "Работа"/>
+			<translation id = "efficiency" 					value = "Эффективность"/>
+			<translation id = "mood" 						value = "Настроение"/>
+			<translation id = "mood_angry" 					rev="2"		value = "Злится"/>
+			<translation id = "mood_unhappy" 				rev="2"		value = "Недовольно"/>
+			<translation id = "mood_happy" 					rev="2"		value = "Довольно"/>
+			<translation id = "mood_super_happy" 			rev="2"		value = "Счастливо"/>
+			<translation id = "mood_unconscious" 			rev="2"		value = "Без сознания"/>
+			<translation id = "mood_dead" 					rev="2"		value = "Мертво"/>
+			<translation id = "mood_explain_sleepy" 		value = "Существо хочет спать. У вас в спальне достаточно кроватей?"/>
+			<translation id = "mood_explain_hungry" 		value = "Существо голодно. У вас в баре достаточно еды?"/>
+			<translation id = "mood_explain_thirsty" 		value = "Существо хочет пить. У вас в баре достаточно пива?"/>
+			<translation id = "mood_explain_unconscious" 	value = "Существу необходима кровать, чтобы отдохнуть и восстановить своё здоровье."/>
+			<translation id = "mood_explain_dead" 			value = "Это существо мертво!"/>
+		 </namespace>
+
+		 <namespace id = "building">
+			<translation id = "enemy" 						value = "Это вражеское сооружение. Подробности неизвестны."/>
+		 </namespace>
+
+		 <namespace id = "job">
+			<namespace id = "build">
+				<translation id = "name" 			value = "Строительная площадка"/>
+				<translation id = "building" 		value = "Строится"/>
+				<translation id = "items_delivered" value = "Материалы"/>
+			</namespace>
+			
+			<translation id = "repairing" 			value = "Ремонтирует"/>
+			<translation id = "guarding" 			value = "Охраняет"/>
+			
+			<namespace id = "drop_liquid">
+				<translation id = "name_water" 		value = "Доставить блок воды"/>
+				<translation id = "name_lava" 		value = "Доставить блок лавы"/>
+			</namespace>
+			
+			<namespace id = "fetch_liquid">
+				<translation id = "name_water" 		value = "Идти за блоком воды"/>
+				<translation id = "name_lava" 		value = "Идти за блоком лавы"/>
+			</namespace>
+
+			<namespace id = "deliver_liquid">
+				<translation id = "name_water" 		value = "Доставляет блок воды"/>
+				<translation id = "name_lava" 		value = "Доставляет блок лавы"/>
+			</namespace>
+
+			<translation id = "walk_to_portal" 		value = "Идёт к порталу"/>
+			<translation id = "barbecuing" 			value = "Жарит мясо"/>
+			<translation id = "fishing" 			value = "Рыбачит"/>
+			<translation id = "going_to_bed" 		value = "Идёт спать"/>
+			<translation id = "baking" 				value = "Печёт хлеб"/>
+			<translation id = "brewing" 			value = "Варит пиво"/>
+			<translation id = "farming" 			value = "Возделывает поле"/>
+			<translation id = "grinding" 			value = "Мелет"/>
+			<translation id = "feeding" 			value = "Кормит"/>
+			<translation id = "fetching_water" 		value = "Идёт за водой"/>
+			<translation id = "crafting" 			value = "Производит вещи"/>
+			<translation id = "fleeing" 			value = "Убегает"/>
+			<translation id = "engage_battle" 		value = "Сражается"/>
+			<translation id = "extracting" 			value = "Добывает"/>
+			<translation id = "fetching_trade_cart" value = "Идёт за торговой тележкой"/>
+			<translation id = "preparing_trade" 	value = "Готовится к торговле"/>
+			<translation id = "building" 			value = "Строит"/>
+			<translation id = "resting" 			value = "Отдыхает"/>
+			<translation id = "eating_and_drinking" value = "Ест и пьёт"/>
+			<translation id = "training" 			value = "Тренируется"/>
+			<translation id = "transporting_cart" 	value = "Перевозит тележку"/>
+			<translation id = "returning_to_room" 	value = "Возвращается в комнату"/>
+			<translation id = "reinforcing_walls" 	value = "Укрепляет стены"/>
+			<translation id = "idle" 				value = "Бездельничает"/>
+			<translation id = "expanding_territory" value = "Расширяет территорию"/>
+			<translation id = "fetching_item" 		value = "Идёт за предметом"/>
+			<translation id = "digging" 			value = "Копает"/>
+			<translation id = "imprison_enemies" 	value = "Запирает врага"/>
+			<translation id = "bury_enemies" 		value = "Закапывает тело врага"/>
+			<translation id = "open_chest" 			value = "Открывает сундук"/>
+			<translation id = "sewing" 				value = "Шьёт"/>
+			<translation id = "set_bait" 			value = "Помещает приманку"/>
+			<translation id = "rally_flag" 			value = "Бежит к флагу сбора"/>
+			
+			<translation id = "trapping_mice" 		value = "Ловит мышей"/>
+			<translation id = "refilling_cannons" 	value = "Перезаряжает пушки"/>
+			<translation id = "grinding_flour" 		value = "Мелет муку"/>
+			<translation id = "fetching_items" 		value = "Идёт за предметами"/>
+			<translation id = "equipping_items" 	value = "Экипируется"/>
+			<translation id = "storing_items" 		value = "Складирует предметы"/>
+			<translation id = "bartending" 			value = "Обслуживает столики"/>
+		 </namespace>
+
+		 <namespace id ="liquid">
+			<translation id = "explain" 			value = "Вы можете собрать жидкость или построить над ней мост."/>
+			<translation id = "fetch_not_possible" 	value = "Невозможно собрать отсюда жидкость."/>
+			<translation id = "fetch_possible" 		value = "Нажмите на жидкость, чтобы приказать импам собрать её."/>
+		 </namespace>
+		 
+		 <namespace id ="minerals">
+			<translation id = "contains" 			value = "Содержит полезные ископаемые"/>
+			<translation id = "explain" 			value = "Постройте шахту или раскопайте эту клетку для добычи полезных ископаемых."/>
+		 </namespace>	
+		 
+		 <namespace id ="trade">	
+			<translation id = "preparing" 			value = "Подготавливается торговля: "/>
+			<translation id = "in_progress" 		value = "Идёт торговля: "/>
+		 </namespace>
+	</namespace>
+
+	<namespace id = "radial_menu">
+		<translation id = "build" 							value = "Построить: %s1"/>
+		<translation id = "reinforce_walls_headline" 		value = "Укрепить стены"/>
+		<translation id = "reinforce_walls" 				value = "Укрепляет стены, чтобы врагам было сложнее сломать их."/>
+		<translation id = "rotate_headline" 				value = "Повернуть"/>
+		<translation id = "rotate" 							value = "Поворачивает сооружение."/>
+		<translation id = "sell_headline" 					value = "Продать"/>
+		<translation id = "sell" 							value = "Продаёт сооружение. Вы получите обратно только часть его строительных материалов."/>
+		<translation id = "wall_constructions_headline" 	value = "Настенные конструкции"/>
+		<translation id = "wall_constructions" 				value = "Открывает меню строительства настенных конструкций."/>
+		<translation id = "floor_constructions_headline" 	value = "Напольные конструкции"/>
+		<translation id = "floor_constructions" 			value = "Открывает меню строительства напольных конструкций."/>
+		<translation id = "nature_objects_headline" 		value = "Природные объекты"/>
+		<translation id = "nature_objects" 					value = "Открывает меню постройки природных объектов."/>
+		<translation id = "add_minerals_headline" 			value = "Добавить полезные ископаемые"/>
+		<translation id = "add_minerals" 					value = "Открывает меню добавления полезных ископаемых."/>
+		<translation id = "remove_minerals_headline" 		value = "Удалить полезные ископаемые"/>
+		<translation id = "remove_minerals" 				value = "Открывает меню удаления полезных ископаемых."/>
+		<translation id = "add_creature_headline" 			value = "Добавить существо"/>
+		<translation id = "add_creature" 					value = "Открывает меню добавления существ."/>
+		<translation id = "remove_creature_headline" 		value = "Удалить существо"/>
+		<translation id = "remove_creature" 				value = "Удаляет существо."/>
+		<translation id = "room_flag_headline" 				value = "Флаг комнаты"/>
+		<translation id = "room_flag" 						value = "Устанавливает точку сбора для комнаты."/>
+		<translation id = "link_rooms_headline" 			value = "Связь комнат"/>
+		<translation id = "link_rooms" 						value = "Связать или отвязать комнаты, меняя их пути доставки."/>
+		<translation id = "activate_headline" 				value = "Переключить режим"/>
+		<translation id = "activate" 						value = "Включить или выключить сооружение вручную."/>
+
+		<namespace id = "rooms">
+			<translation id = "rooms_headline" 				value = "Меню строительства комнат"/>
+			<translation id = "rooms" 						value = "Открывает меню строительства комнат."/>
+			<translation id = "bar_room_headline" 			value = "Меню сооружений бара"/>
+			<translation id = "bar_room" 					rev="2"		value = "Открывает меню строительства сооружений для бара."/>
+			<translation id = "bed_room_headline" 			value = "Меню сооружений спальни"/>
+			<translation id = "bed_room" 					rev="2"		value = "Открывает меню строительства сооружений для спальни."/>
+			<translation id = "cookery_room_headline" 		value = "Меню сооружений кухни"/>
+			<translation id = "cookery_room" 				rev="2"		value = "Открывает меню строительства сооружений для кухни."/>
+			<translation id = "catacombs_room_headline" 	value = "Меню сооружений катакомб"/>
+			<translation id = "catacombs_room" 				rev="2"		value = "Открывает меню строительства сооружений для катакомб."/>
+			<translation id = "farm_room_headline" 			value = "Меню сооружений фермы"/>
+			<translation id = "farm_room" 					rev="2"		value = "Открывает меню строительства сооружений для фермы."/>
+			<translation id = "crafting_room_headline" 		value = "Меню сооружений мастерской"/>
+			<translation id = "crafting_room"				value = "Открывает меню строительства сооружений для мастерской."/>
+			<translation id = "prison_room_headline" 		value = "Меню сооружений тюрьмы"/>
+			<translation id = "prison_room" 				rev="2"		value = "Открывает меню строительства сооружений для тюрьмы."/>
+			<translation id = "storage_room_headline" 		value = "Меню сооружений склада"/>
+			<translation id = "storage_room" 				rev="2"		value = "Открывает меню строительства сооружений для склада."/>
+			<translation id = "training_room_headline" 		value = "Меню сооружений тренировочной комнаты"/>
+			<translation id = "training_room" 				rev="2"		value = "Открывает меню строительства сооружений для тренировочной комнаты."/>
+			<translation id = "trading_room_headline" 		value = "Меню сооружений торгового поста"/>
+			<translation id = "trading_room" 				rev="2"		value = "Открывает меню строительства сооружений для торгового поста."/>
+		</namespace>
+
+		<namespace id = "spells">
+			<translation id = "spells_headline" 	value = "Меню заклинаний"/>
+			<translation id = "spells" 				value = "Открывает меню выбора заклинаний."/>
+			<translation id = "possess_headline" 	value = "Контроль"/>
+			<translation id = "possess" 			value = "Установить прямой контроль над существом."/>
+			<translation id = "reveal_headline" 	value = "Открыть"/>
+			<translation id = "reveal" 				value = "Временно открыть неисследованную территорию."/>
+		</namespace>
+
+		<namespace id = "liquid">
+			<translation id = "liquid_headline" 		value = "Меню жидкостей"/>
+			<translation id = "liquid" 					value = "Открывает меню возможных действий с жидкостями."/>
+			<translation id = "drop_water_headline" 	value = "Сбросить воду"/>
+			<translation id = "drop_water" 				value = "Приказать импам сбросить блок воды на клетку."/>
+			<translation id = "drop_lava_headline" 		value = "Сбросить лаву"/>
+			<translation id = "drop_lava" 				value = "Приказать импам сбросить блок лавы на клетку."/>
+			<translation id = "fetch_liquid_headline" 	value = "Собрать жидкость"/>
+			<translation id = "fetch_liquid" 			value = "Собрать блок воды или лавы для хранения."/>
+		</namespace>
+		
+		<namespace id = "road">
+			<translation id = "build_headline" 		value = "Строительство дороги"/>
+			<translation id = "build" 				value = "Построить дорогу, чтобы соединить ваши комнаты и ускорить существ."/>
+			<translation id = "upgrade_headline" 	value = "Усовершенствование дороги"/>
+			<translation id = "upgrade" 			value = "Усовершенствовать дорогу, чтобы ещё больше ускорить ваших существ."/>
+		</namespace>
+		
+		<namespace id = "menu">
+			<translation id = "creature_headline" 	value = "Сведения о существе"/>
+			<translation id = "creature" 			value = "Показывает подробные сведения о выделенном существе."/>
+			<translation id = "room_headline" 		value = "Сведения о комнате"/>
+			<translation id = "room" 				value = "Показывает подробные сведения о выделенной комнате."/>
+		</namespace>		
+		
+		<namespace id = "hydraulics">
+			<translation id = "hydraulics_headline" value = "Гидравлические механизмы"/>
+			<translation id = "hydraulics" 			value = "Открывает меню строительства гидравлических механизмов."/>
+			<translation id = "switches_headline" 	value = "Гидравлические переключатели"/>
+			<translation id = "switches" 			value = "Открывает меню строительства гидравлических переключателей."/>
+			<translation id = "traps_headline" 		value = "Гидравлические ловушки"/>
+			<translation id = "traps" 				value = "Открывает меню строительства гидравлических ловушек."/>
+		</namespace>
+	</namespace>
+
+	<namespace id = "editor">
+		<translation id = "creating_player_owned_objects" 	value = "Владелец созданных объектов (%s1): Игрок"/>
+		<translation id = "creating_enemy_owned_objects" 	value = "Владелец созданных объектов (%s1): Враг"/>
+		<translation id = "creating_creature_level" 		value = "Создание существ (%s1) заданного уровня: %s2"/>
+		<translation id = "selector_location" 				value = "Позиция курсора: %s1;%s2;%s3"/>
+		<translation id = "camera_location" 				value = "Позиция камеры: %s1;%s2;%s3"/>
+	</namespace>
+
+	<namespace id = "top_bar">
+		<namespace id = "categories">
+			<translation id = "basic_items" 								value = "Базовые предметы"/>
+			<translation id = "basic_items_description" 					value = "Список предметов, которые могут быть найдены в подземелье без участия производственной цепочки."/>
+			<translation id = "advanced_items" 								value = "Продвинутые предметы"/>
+			<translation id = "advanced_items_description" 					value = "Список предметов, которые должны быть получены из других предметов в ходе производственной цепочки."/>
+			<translation id = "consumable_items" 							value = "Пища"/>
+			<translation id = "consumable_items_description" 				value = "Список предметов, которые могут быть съедены существами."/>
+			<translation id = "weapon_items" 								value = "Оружие"/>
+			<translation id = "weapon_items_description" 					value = "Список оружия и других предметов, которые могут быть произведены и выданы существам для нанесения урона врагам."/>
+			<translation id = "armor_items" 								value = "Броня"/>
+			<translation id = "armor_items_description" 					value = "Список брони и других предметов, которые могут быть произведены и выданы существам для защиты от вражеских атак."/>
+			<translation id = "trading" 									value = "Предметы для торговли"/>
+			<translation id = "trading_description" 						value = "Список предметов, которые можно обменять на золото."/>
+			<translation id = "room_buildings" 								value = "Комнаты"/>
+			<translation id = "room_buildings_description" 					value = "Список ваших комнат."/>
+			<translation id = "floor_construction_buildings" 				value = "Напольные сооружения"/>
+			<translation id = "floor_construction_buildings_description" 	value = "Список ваших напольных сооружений."/>
+			<translation id = "wall_construction_buildings" 				value = "Настенные сооружения"/>
+			<translation id = "wall_construction_buildings_description" 	value = "Список ваших настенных сооружений."/>
+			<translation id = "hydraulics_buildings" 						value = "Гидравлические сооружения"/>
+			<translation id = "hydraulics_buildings_description" 			value = "Список ваших гидравлических сооружений."/>
+			<translation id = "liquid_buildings" 							value = "Мосты"/>
+			<translation id = "liquid_buildings_description" 				value = "Список сооружений, которые могут быть построены над различными жидкостями."/>
+		</namespace>
+
+		<namespace id = "items">
+			<translation id = "left_click_to_zoom_in" 		value = "(Нажмите левую кнопку, чтобы приблизиться)"/>
+			<translation id = "crafting_change_amount" 		value = "(Нажимайте кнопки +/- для создания)"/>
+			<translation id = "trading_headline" 			value = "Торговля: %s1"/>
+			<translation id = "trading_description" 		value = "Торговые пути связывают торговые посты и захваченные порталы. Чем больше порталов захвачено, тем больше торговых возможностей вам доступно."/>
+			<translation id = "trading_explain_buy_sell" 	value = "Нажимайте кнопки +/- для того, чтобы установить условия торговли."/>
+			<translation id = "trading_explain_zoom_in" 	value = "Нажмите левую кнопку, чтобы сфокусироваться на активных сделках."/>
+			<translation id = "trading_locked_headline" 	value = "Торговый путь заблокирован"/>
+			<translation id = "trading_locked_description" 	value = "Этот торговый путь заблокирован! Захватывайте порталы, ведущие на поверхность."/>
+			<translation id = "trading_condition_headline" 	value = "Условия торговли"/>
+			<translation id = "trading_condition_sell" 		value = "Если на ваших складах находится больше %s2 единиц ресурса %s1, %s1 будет продаваться за золото."/>
+			<translation id = "trading_condition_buy" 		value = "Если на ваших складах находится меньше %s2 единиц ресурса %s1, %s1 будет покупаться за золото."/>
+			<translation id = "trading_condition_none" 		value = "Для ресурса %s1 не установлены условия торговли."/>		
+			<translation id = "trading_current_buy_if" 		value = "Покупать (меньше %s1)"/>
+			<translation id = "trading_current_sell_if" 	value = "Продавать (больше %s1)"/>
+			<translation id = "trading_current_no_if" 		value = "Не торговать"/>
+		</namespace>
+	</namespace>
+
+	<namespace id = "achievements">
+		<translation id = "first_cyclotaur" 				rev="2"		value = "Быков войны с цепи спуская"/>
+		<translation id = "first_cyclotaur_description" 	value = "Создать первого циклотавра."/>
+
+		<translation id = "conquer_all_portals"				value = "На поверхность!"/>
+		<translation id = "conquer_all_portals_description" value = "Захватить все порталы в подземелье."/>
+
+		<translation id = "catch_first_fish" 				value = "На живца!"/>
+		<translation id = "catch_first_fish_description" 	value = "Поймайте рыбу, построив мост возле рыбного места."/>
+
+		<translation id = "build_all_rooms" 				value = "Полная чаша."/>
+		<translation id = "build_all_rooms_description" 	value = "Разблокируйте и постройте комнаты всех типов."/>
+
+		<translation id = "first_trade" 					value = "По рукам!"/>
+		<translation id = "first_trade_description" 		value = "Поторгуйте с другой колонией."/>
+
+		<translation id = "imp_army" 						value = "Численное превосходство."/>
+		<translation id = "imp_army_description" 			value = "Обзаведитесь пятьюдесятью импами."/>
+
+		<namespace id = "learn_creature_skills">
+			<translation id = "barrel_roll" 				value = "Сделай бочку!"/>
+			<translation id = "barrel_roll_description" 	value = "Натренируйте импанзе до нужного уровня, чтобы открыть навык Бочка."/>
+
+			<translation id = "bull_rush" 					value = "Некогда раздумывать"/>
+			<translation id = "bull_rush_description" 		value = "Натренируйте циклотавра до нужного уровня, чтобы открыть навык Бросок быка."/>
+
+			<translation id = "butchering" 					value = "Как ягнята на заклание."/>
+			<translation id = "butchering_description" 		value = "Натренируйте свинохряка до нужного уровня, чтобы открыть навык Резня."/>
+
+			<translation id = "frog_tongue" 				value = "Вот так в самый раз!"/>
+			<translation id = "frog_tongue_description" 	value = "Натренируйте рыбочеловека до нужного уровня, чтобы открыть навык Лягушачий язык."/>
+
+			<translation id = "hurricane" 					value = "Встряхну тебя, как ураган!"/>
+			<translation id = "hurricane_description" 		value = "Натренируйте рыцаря до нужного уровня, чтобы открыть навык Ураган."/>
+
+			<translation id = "skill_steal" 				value = "Было ваше, будет наше!"/>
+			<translation id = "skill_steal_description" 	value = "Натренируйте бандита до нужного уровня, чтобы открыть навык Воровство."/>
+
+			<translation id = "stunning_block" 				value = "Руками не трогать!"/>
+			<translation id = "stunning_block_description" 	value = "Натренируйте орка до нужного уровня, чтобы открыть навык Удар щитом."/>
+
+			<translation id = "teleport" 					value = "Вытащи меня!"/>
+			<translation id = "teleport_description" 		value = "Натренируйте импа до нужного уровня, чтобы открыть навык Телепортация."/>
+		</namespace>
+	</namespace>
+
+	<namespace id = "rally_flag">
+		<translation id = "remove" 					value = "Нажмите, чтобы удалить флаг."/>
+		<translation id = "headline_creature_flag" 	value = "Флаг существа."/>
+		<translation id = "tooltip_creature_flag" 	value = "Нажмите на эту иконку левой кнопкой, чтобы получить возможность поставить флаг существа, к которому побегут все остальные существа того же типа. Приоритет этого флага выше, чем у флага общего сбора, но ниже, чем у флага группы."/>
+	</namespace>
+
+	<namespace id = "creature_equipment">
+		<translation id = "right_hand" 				value = "Правая рука"/>
+		<translation id = "left_hand" 				value = "Левая рука"/>
+		<translation id = "helmet" 					value = "Шлем"/>
+		<translation id = "body_armor" 				value = "Нагрудник"/>
+		<translation id = "pants" 					value = "Штаны"/>
+		<translation id = "shoes" 					value = "Сапоги"/>
+		<translation id = "shield" 					value = "Щит"/>
+		
+		<translation id = "one_hand_weapon" value = "Одноручное оружие"/>
+		<translation id = "two_hand_weapon" value = "Двуручное оружие"/>
+		
+		<translation id = "cant_equip" 				value = "Невозможно экипировать"/>
+		<translation id = "left_hand_equip" 		value = "В левую руку"/>
+		<translation id = "head_equip" 				value = "На голову"/>
+		<translation id = "body_equip" 				value = "На тело"/>
+		<translation id = "legs_equip" 				value = "На бёдра"/>
+		<translation id = "feet_equip" 				value = "На ноги"/>
+		<translation id = "right_hand_equip" 		value = "В правую руку"/>
+	</namespace>
+
+	<namespace id = "menu_production">
+		<namespace id = "options">
+			<namespace id = "reinforce_walls">
+				<translation id = "title" 			value = "Укрепление стен"/>
+				<translation id = "disabled" 		value = "Отключено"/>
+				<translation id = "rooms" 			value = "Вокруг комнат"/>
+				<translation id = "roads_and_rooms" value = "Вокруг комнат и дорог"/>
+				<translation id = "all" 			value = "Вокруг всей территории игрока"/>
+			</namespace>
+
+			<namespace id = "expand_territory">
+				<translation id = "title" 			value = "Расширение территории"/>
+				<translation id = "num_blocks" 		value = "блок(ов)"/>
+				<translation id = "disabled" 		value = "Отключено"/>
+			</namespace>
+		</namespace>
+
+		<namespace id = "crafting">
+			<translation id = "click_to_add_or_remove" 		value = "Нажмите ниже, чтобы добавить или убрать заказы на производство."/>
+			<translation id = "missing_forge_and_anvil"		value = "Невозможно произвести без Кузни с наковальней!"/>
+			<translation id = "missing_sewing_machine" 		value = "Невозможно произвести без Швейной машинки!"/>
+		</namespace>
+
+		<translation id = "items_quick_choice_info" 		value = "(Нажмите на полоску сверху, чтобы переключить быстрый предмет)"/>
+		<translation id = "items_graph_history" 			value = "История"/>
+	</namespace>
+
+
+	<namespace id = "creature">
+		<namespace id = "skills">
+			<translation id = "required_level" 			value = "Требуется уровень: %s1"/>
+		</namespace>
+
+		<namespace id = "menu_stats">
+			<namespace id = "race">
+				<translation id = "headline" 			value = "Раса"/>
+				<translation id = "desc" 				value = "Показывает, к какой расе относится существо."/>
+				<translation id = "value" 				value = "Раса: %s1"/>
+			</namespace>
+
+			<namespace id = "level">
+				<translation id = "headline" 			value = "Уровень"/>
+				<translation id = "desc" 				value = "Показывает уровень существа и количество опыта, необходимое ему для достижения следующего уровня."/>
+				<translation id = "value" 				value = "Уровень: %s1"/>
+				<translation id = "experience" 			value = "Опыт: %s1"/>
+			</namespace>
+
+			<namespace id = "efficiency">
+				<translation id = "headline" 			value = "Эффективность"/>
+				<translation id = "desc" 				value = "Показывает текущую эффективность существа. Низкая эффективность снижает повреждения, защиту и сопротивление существа. Эффективность зависит от того, насколько удовлетворены желания существа."/>
+				<translation id = "value" 				value = "Эффективность: %s1"/>
+			</namespace>
+
+			<namespace id = "damage">
+				<translation id = "headline" 						value = "Повреждения в секунду"/>
+				<translation id = "desc" 							value = "Показывает повреждения, наносимые существом раз в секунду. Этот показатель вычисляется умножением скорости атаки на повреждение."/>
+				<translation id = "value" 							value = "Повреждение: %s1"/>
+				<translation id = "attacks_per_second"  rev="2"		value = "Количество атак в секунду: %s1"/>
+			</namespace>
+
+			<namespace id = "defense">
+				<translation id = "headline" 			value = "Защита"/>
+				<translation id = "desc" 				value = "Показывает текущую защиту существа. Высокая защита позволяет существу выдерживать физические атаки."/>
+				<translation id = "value" 				value = "Защита: %s1"/>
+			</namespace>
+
+			<namespace id = "resistance">
+				<translation id = "headline" 			value = "Сопротивление"/>
+				<translation id = "desc" 				value = "Показывает текущее сопротивление существа. Высокое сопротивление позволяет существу выдерживать стихийные атаки."/>
+				<translation id = "value" 				value = "Сопротивление: %s1"/>
+			</namespace>
+
+			<namespace id = "health">
+				<translation id = "headline" 			value = "Здоровье"/>
+				<translation id = "desc" 				value = "Показывает текущее здоровье существа. Если здоровье падает до нуля, существо теряет сознание. Если не перенести его в кровать, оно умрёт."/>
+				<translation id = "value" 				value = "Здоровье: %s1"/>
+			</namespace>
+
+			<namespace id = "rest">
+				<translation id = "headline" 			value = "Бодрость"/>
+				<translation id = "desc" 				value = "Показывает текущую бодрость существа. Если бодрость снижается слишком сильно, эффективность существа начинает падать. Рано или поздно усталое существо дезертирует."/>
+				<translation id = "value" 				value = "Бодрость: %s1"/>
+			</namespace>
+
+			<namespace id = "food">
+				<translation id = "headline" 			value = "Сытость"/>
+				<translation id = "desc" 				value = "Показывает текущую сытость существа. Если сытость снижается слишком сильно, эффективность существа начинает падать. Рано или поздно голодное существо дезертирует. Когда существо ест свою любимую пищу, его эффективность повышается."/>
+				<translation id = "favorite_none" 		value = "У этого существа нет любимой пищи."/>
+				<translation id = "favorite" 			value = "Любимая пища"/>
+				<translation id = "value" 				value = "Сытость: %s1"/>
+			</namespace>
+
+			<namespace id = "drink">
+				<translation id = "headline" 			value = "Опьянение"/>
+				<translation id = "desc" 				value = "Показывает текущее опьянение существа. Если существо трезвеет, его эффективность начинает падать. Существо, которое оставалось трезвым слишком долго, рано или поздно дезертирует."/>
+				<translation id = "value" 				value = "Опьянение: %s1"/>
+			</namespace>
+
+			<namespace id = "doing">
+				<translation id = "headline" 			value = "Занятие"/>
+				<translation id = "desc" 				value = "Показывает, чем сейчас занято существо."/>
+				<translation id = "value" 				value = "Занятие: %s1"/>
+			</namespace>
+		</namespace>
+	</namespace>
+
+	<namespace id = "skills">
+		<translation id = "passive_skill_desc" 		value = "Пассивный навык"/>
+		<translation id = "active_skill_desc" 		value = "Активный навык"/>
+		<translation id = "cooldown_time_desc" 		value = "Откат: %.2f сек."/>
+	</namespace>
+
+	<namespace id = "menuTab">
+		<namespace id = "items">
+			<translation id = "headline" 	value = "Предметы"/>
+			<translation id = "crafting" 	value = "Производство"/>
+			<translation id = "options" 	value = "Настройки"/>
+		</namespace>
+
+		<namespace id = "skills"> 
+			<translation id = "headline" 	value = "Навыки"/>
+			<translation id = "passive" 	value = "Пассивные навыки"/>
+			<translation id = "active" 		value = "Активные навыки"/> 
+		</namespace>
+		
+		<translation id = "character" 		value = "Сущ-во"/>
+		<translation id = "task_order" 		value = "Задачи"/>
+		<translation id = "squads" 			value = "Группы"/>
+		<translation id = "history" 		value = "История"/>
+		<translation id = "equipment" 		value = "Рюкзак"/>
+		<translation id = "auto_equip" 		value = "Экипир."/>
+	</namespace>
+
+	<namespace id = "messages">
+		<namespace id = "demo">
+			<translation id = "message_1" 						value = "Время демо-версии закончилось!"/>
+			<translation id = "message_2" 						value = "Надеюсь, что вам понравилось играть в Dwelvers."/>
+			<translation id = "message_3" 						value = "Если вы хотите поддержать разработку этой игры и"/>
+			<translation id = "message_4" 						value = "поиграть в её полную версию, вы можете зайти на www.dwelvers.com"/>
+			<translation id = "message_5" 						value = "и оформить предзаказ."/>
+			<translation id = "message_6" 						value = "Dwelvers - это игра, которая обновляется постоянно. Предзаказав её, вы получите все"/>
+			<translation id = "message_7" 						value = "будущие обновления и поможете нам сделать Dwelvers игрой такого уровня, какой она заслуживает!"/>
+			<translation id = "demo_timer" 						value = "Осталось времени демо-версии"/>
+		</namespace>
+
+		<namespace id = "game">
+			<namespace id = "general">
+				<translation id = "game_speed_increased" 			value = "Скорость игры увеличена (x%s1)"/>
+				<translation id = "game_speed_decreased" 			value = "Скорость игры уменьшена (x%s1)"/>
+			</namespace>
+			<namespace id = "room">
+				<translation id = "no_space_for_room_flag" 			value = "Негде поставить флаг комнаты"/>
+			</namespace>
+			<namespace id = "item">
+				<translation id = "new_item_available" 				value = "Предмет %s1 доступен"/>
+			</namespace>
+			<namespace id = "creature">
+				<translation id = "attacked" 						value = "Существа атакованы"/>
+				<translation id = "spawned" 						value = "Появилось существо %s1"/>
+				<translation id = "hungry" 							value = "Существа хотят есть"/>
+				<translation id = "thirsty" 						value = "Существа хотят пить"/>
+				<translation id = "tired" 							value = "Существа устали"/>
+				<translation id = "level_up"						value = "%s1: уровень (%s2)"/>
+			</namespace>
+			<namespace id = "building">
+				<translation id = "attacked" 						value = "Сооружение атаковано"/>
+				<translation id = "slow_production"					value = "Производство замедлено"/>
+				<translation id = "blocked" 						value = "Сооружение заблокировано"/>
+				<translation id = "no_path_to_portal"				value = "Невозможно добраться до портала"/>
+				<translation id = "cave_in" 						value = "Произошёл обвал"/>
+			</namespace>
+			<translation id = "mission_complete" 				value = "Миссия выполнена..."/>
+			<translation id = "mission_failed" 					value = "Миссия провалена..."/>
+			<translation id = "defeat_enemies" 					value = "Вы победили всех ваших врагов!"/>
+			<translation id = "dark_mother_killed" 				value = "Ваша Тёмная мать погибла!"/>
+			<translation id = "creation_boost_increased" 		value = "Увеличен таймер ускоренного создания существ."/>
+			<translation id = "screenshot_saved" 				value = "Скриншот сохранён в:"/>
+			<translation id = "room_doesnt_need_workers" 		value = "Эта комната не требует работников."/>
+			<translation id = "area_unexplored" 				value = "Эта территория ещё не была исследована, подробности неизвестны."/>
+			<translation id = "click_to_feed_dark_mother" 		value = "Нажмите на существо, чтобы скормить его Тёмной матери:"/>
+			<translation id = "click_swap_quickicon" 			value = "Нажмите на быструю иконку, чтобы поменять местами."/>
+			<translation id = "trigger_cave-in" 				value = "Произошёл обвал"/>
+		</namespace>
+	</namespace>
+
+	<namespace id = "intro">
+		<translation id = "presents" 							value = "Представляет"/>
+	</namespace>
+
+	<namespace id = "ui">
+		<namespace id ="status">
+			<translation id = "dark_mother_health_headline"			value = "Здоровье Тёмной матери"/>
+			<translation id = "dark_mother_health_desc"				value = "Показывает здоровье Тёмной матери. Если оно упадёт до нуля, вы проиграете!"/>
+			<translation id = "dark_mother_health_status"			value = "Здоровье: %s1%"/>
+			<translation id = "evil_meter_headline" 				value = "Злометр"/>
+			<translation id = "evil_meter_desc" 					value = "Разрушение сооружений людей на поверхности заполняет шкалу злометра."/>
+			<translation id = "evil_meter_status" 					value = "Сила: %s1%"/>
+			<translation id = "evil_meter_human_aggression"			value = "Агрессия людей: %s1%"/>
+			<translation id = "evil_meter_experience_multiplier"	value = "Множитель опыта: %s1%"/>
+
+			<translation id = "creature_health_headline"			value = "Здоровье существ"/>
+			<translation id = "creature_health_desc"				value = "Показывает среднее здоровье всех ваших существ."/>
+			<translation id = "creature_health_status"				value = "Среднее здоровье: %s1%"/>
+
+			<translation id = "creature_needs_headline"				value = "Желания существ"/>
+			<translation id = "creature_needs_desc"					value = "Показывает среднее настроение всех ваших существ. Оно зависит от того, насколько удовлетворены их желания."/>
+			<translation id = "creature_needs_status"				value = "Среднее счастье: %s1%"/>
+			<translation id = "creature_needs_status_food"			value = "Средняя сытость: %s1%"/>
+			<translation id = "creature_needs_status_drink"			value = "Среднее опьянение: %s1%"/>
+			<translation id = "creature_needs_status_sleep"			value = "Средняя бодрость: %s1%"/>
+
+			<translation id = "storage_headline"					value = "Свободное место на складе"/>
+			<translation id = "storage_desc"						value = "Показывает, сколько свободного места осталось на вашем складе."/>
+			<translation id = "storage_status"						value = "Место: %s1%"/>
+
+			<translation id = "productivity_headline"				value = "Производительность"/>
+			<translation id = "productivity_desc"					value = "Показывает среднюю производительность в вашем подземелье."/>
+			<translation id = "productivity_status"					value = "Средняя производительность: %s1%"/>
+		</namespace>
+		<namespace id ="buttons">
+			<translation id = "creature_menu"						value = "Открывает меню существ"/>
+		</namespace>
+		<namespace id ="wave_timer">
+			<translation id = "wave_next"							value = "Следующая волна: %s1"/>
+			<translation id = "wave_desc"							value = "Сколько осталось времени до того, как в порталы пройдёт следующая волна врагов."/>
+			<translation id = "wave_next_time"						value = "До следующей волны осталось: %s1:%s2"/>
+			<translation id = "wave_stopped"						value = "Волна остановлена. Продолжайте завоёвывать порталы."/>
+		</namespace>
+		<namespace id ="creature_icon">
+			<translation id = "idle_headline"				value = "Бездельничающие существа"/>
+			<translation id = "idle_desc"					value = "Показывает, сколько существ этого типа сейчас бездельничает."/>
+			<translation id = "idle_status"					value = "Бездельничающие существа: %s1"/>
+			
+			<translation id = "resting_headline"			value = "Отдыхающие существа"/>
+			<translation id = "resting_desc"				value = "Показывает, сколько существ этого типа сейчас отдыхает."/>
+			<translation id = "resting_status"				value = "Отдыхающие существа: %s1"/>
+
+			<translation id = "working_headline"			value = "Работающие существа"/>
+			<translation id = "working_desc"				value = "Показывает, сколько существ этого типа сейчас работает."/>
+			<translation id = "working_status"				value = "Работающие существа: %s1"/>
+
+			<translation id = "fighting_headline"			value = "Сражающиеся существа"/>
+			<translation id = "fighting_desc"				value = "Показывает, сколько этого типа сейчас сражается."/>
+			<translation id = "fighting_status"				value = "Сражающиеся существа: %s1"/>
+			
+			<translation id = "unconscious_headline"		value = "Существа без сознания"/>
+			<translation id = "unconscious_desc"			value = "Показывает, сколько существ этого типа сейчас лежит без сознания."/>
+			<translation id = "unconscious_status"			value = "Существа без сознания: %s1"/>
+
+			<translation id = "angry_headline"				value = "Злые существа"/>
+			<translation id = "angry_desc"					value = "Показывает, сколько существ этого типа сейчас злится на вас."/>
+			<translation id = "angry_status"				value = "Злые существа: %s1"/>
+
+			<translation id = "unhappy_headline"			value = "Недовольные существа"/>
+			<translation id = "unhappy_desc"				value = "Показывает, сколько существ этого типа сейчас недовольно вами."/>
+			<translation id = "unhappy_status"				value = "Недовольные существа: %s1"/>
+
+			<translation id = "happy_headline"				value = "Довольные существа"/>
+			<translation id = "happy_desc"					value = "Показывает, сколько существ этого типа сейчас довольно вами."/>
+			<translation id = "happy_status"				value = "Довольные существа: %s1"/>
+
+			<translation id = "spawning_headline"									value = "Прогресс появления"/>
+			<translation id = "spawning_desc"										value = "Показывает, насколько выполнены условия появления нового существа."/>
+			<translation id = "spawning_status_items_produced"						value = "Осталось произвести (%s1): %s2/%s3"/>
+			<translation id = "spawning_status_items_produced_in_room"				value = "Осталось произвести предметов в комнате %s1: %s2/%s3"/>
+			<translation id = "spawning_status_items_transported"					value = "Осталось перенести предметов: %s1/%s2"/>
+			<translation id = "spawning_status_items_consumed"						value = "Осталось съесть предметов: %s1/%s2"/>
+			<translation id = "spawning_status_enemies_killed"						value = "Осталось убить врагов: %s1/%s2"/>
+
+			<translation id = "left_click_to_zoom_in" 		value = "(Нажмите левую кнопку, чтобы приблизиться)"/>
+		</namespace>
+		<namespace id = "rally_flag">
+			<translation id = "standard_rally_flag" 		value = "Флаг сбора"/>
+			<translation id = "standard_rally_flag_desc" 		value = "Установить флаг, чтобы позвать к нему всех существ, которые могут сражаться за вас."/>
+			
+			<translation id = "creature_rally_flag" 		value = "Флаг сбора для: %s1"/>
+			<translation id = "creature_rally_flag_desc"	value = "Установить флаг, чтобы позвать к нему всех существ этого типа."/>
+			
+			<translation id = "squad_rally_flag" 			value = "Флаг сбора для группы %s1"/>
+			<translation id = "squad_rally_flag_desc"		value = "Установить флаг, чтобы позвать к нему группу."/>
+			
+			<translation id = "left_click_to_rally" 		value = "(Нажать левую кнопку для установки флага)"/>
+			<translation id = "right_click_to_cancel" 		value = "(Нажать правую кнопку для отмены)"/>
+		</namespace>
+		<translation id = "storage" 							value = "Хранение"/>
+		<translation id = "production" 							value = "Производство"/>
+		<translation id = "feeding_queue" 						value = "Очерёдность кормления:"/>
+		<translation id = "item_prio" 							value = "Приор."/>
+		<translation id = "auto" 								value = "Авто"/>
+		<translation id = "manual" 								value = "Вручную"/>
+		<translation id = "cost" 								value = "Стоимость"/>
+		<translation id = "true" 								value = "Да"/>
+		<translation id = "false" 								value = "Нет"/>
+		<translation id = "objectives" 							value = "Цели"/>
+		<translation id = "no_objectives" 						value = "Нет активных целей."/>
+		<translation id = "battles" 							value = "Битвы"/>
+		<translation id = "productions" 						value = "Производства"/>
+		<translation id = "damage" 			rev="2"				value = "Повреждение"/>
+		<translation id = "attacks_per_second" 					value = "Атак в секунду: %s1"/>
+		<translation id = "defense" 		rev="2"				value = "Защита"/>
+		<translation id = "resistance" 		rev="2"				value = "Сопротивление: %s1"/>
+		<translation id = "health" 			rev="2"				value = "Здоровье: %s1"/>
+		<translation id = "timeShort-m-" 						value = "м."/>
+		<translation id = "time" 								value = "Время"/>
+		<translation id = "creatures" 							value = "Существа"/>
+		<translation id = "items" 								value = "Предметы"/>
+		<translation id = "substitutes" 						value = "На замену"/>
+		<translation id = "workers" 							value = "Рабочие"/>
+		<translation id = "available" 							value = "Доступно"/>
+		<translation id = "miscellaneous" 						value = "Разное"/>
+		<translation id = "hydraulics" 							value = "Гидравлика"/>
+		<translation id = "consumable" 							value = "Пища"/>
+		<translation id = "units" 								value = "ед."/>
+		<translation id = "workload" 							value = "Нагрузка:"/>
+		<translation id = "selector_location" 					value = "Позиция курсора"/>
+		<translation id = "feed_enemies_to_dark_mother" 		value = "Скорми врагов Тёмной матери."/>
+		<translation id = "block_chance" 						value = "шанс блока"/>
+		<translation id = "OK" 									value = "ОК"/>
+	</namespace>
+
+	<namespace id = "evil_meter">
+		<translation id = "next_wave_endless_flow" 	value = "Осталось времени до волны (%d):"/>
+		<translation id = "next_wave_limited_flow" 	value = "Осталось времени до волны (%d / %d):"/>
+	</namespace>
+
+	<namespace id = "loading">
+		<translation id = "game_textures" 						value = "Загрузка игровых текстур..."/>
+		<translation id = "sound_manager" 						value = "Загрузка обработчика звуков..."/>
+		<translation id = "drawables" 							value = "Загрузка изображений..."/>
+		<translation id = "plain_models" 						value = "Загрузка простых моделей..."/>
+		<translation id = "lockhandler" 						value = "Загрузка блокировщика..."/>
+		<translation id = "deferred_models" 					value = "Загрузка отложенных моделей..."/>
+		<translation id = "skinned_models" 						value = "Загрузка текстурированных моделей..."/>
+		<translation id = "particle_manager" 					value = "Загрузка обработчика частиц..."/>
+		<translation id = "dungeon_noise" 						value = "Загрузка подземного шума..."/>
+		<translation id = "game_title_texture" 					value = "Загрузка текстур поверхности..."/>
+		<translation id = "items" 								value = "Загрузка предметов..."/>
+		<translation id = "players" 							value = "Загрузка игроков..."/>
+		<translation id = "game_buildings" 						value = "Загрузка сооружений..."/>
+		<translation id = "static_rendering" 					value = "Загрузка статического рендеринга игровых уровней..."/>
+		<translation id = "hydraulics" 							value = "Загрузка гидравлики..."/>
+		<translation id = "add-on_buildings" 					value = "Загрузка дополнительных сооружений..."/>
+		<translation id = "minerals" 							value = "Загрузка полезных ископаемых..."/>
+		<translation id = "liquids" 							value = "Загрузка жидкостей..."/>
+		<translation id = "delivery_services" 					value = "Загрузка служб доставки..."/>
+		<translation id = "projectiles" 						value = "Загрузка снарядов..."/>
+		<translation id = "jobs" 								value = "Загрузка заданий..."/>
+		<translation id = "creatures" 							value = "Загрузка существ..."/>
+		<translation id = "critters" 							value = "Загрузка мелкой живности..."/>
+		<translation id = "creature_skills" 					value = "Загрузка навыков существ..."/>
+		<translation id = "level_data" 							value = "Загрузка данных игрового уровня..."/>
+		<translation id = "carts" 								value = "Загрузка тележек..."/>
+		<translation id = "rooms" 								value = "Загрузка данных о комнатах..."/>
+		<translation id = "flags" 								value = "Загрузка флагов игрового уровня..."/>
+		<translation id = "atlas_textures" 						value = "Загрузка атласов текстур..."/>
+		<translation id = "achievements" 						value = "Загрузка достижений..."/>
+		<translation id = "misc" 								value = "Загрузка прочих мелочей..."/>
+		<translation id = "menu_system" 						value = "Загрузка системы меню..."/>
+		<translation id = "ui" 									value = "Загрузка графического интерфейса..."/>
+		<translation id = "creating_game" 						value = "Создание игры..."/>
+		<translation id = "initializing" 						value = "Инициализация..."/>
+		<translation id = "precalculate_font_data" 				value = "Предварительный расчёт данных шрифтов (только один раз)"/>
+	</namespace>
+
+	<namespace id = "mouse">
+		<translation id = "LEFT_MOUSE_BUTTON" 					value = "ЛЕВАЯ КНОПКА МЫШИ"/>
+		<translation id = "RIGHT_MOUSE_BUTTON" 					value = "ПРАВАЯ КНОПКА МЫШИ"/>
+		<translation id = "MIDDLE_MOUSE_BUTTON" 				value = "СРЕДНЯЯ КНОПКА МЫШИ"/>
+	</namespace>
+
+	<namespace id = "menu_task_history">
+		<translation id = "final_task_message" 					value = "Окончательное сообщение задания"/>
+		<translation id = "job_ID" 								value = "ID задания"/>
+		<translation id = "description_msg_translated" 			value = "Перевод сообщения"/>
+	</namespace>
+
+	<namespace id = "task_order">
+		<translation id = "status_task_order" 					value = "Уровень приоритета задания #"/>
+		<translation id = "headline_working_in_room" 			value = "Работа в комнатах"/>
+		<translation id = "desc_working_in_room" 				value = "Приоритет для работы в комнатах. Основывается на том, сколько существ сейчас занято этой задачей."/>
+		<translation id = "headline_training" 					value = "Тренировка"/>
+		<translation id = "desc_training" 						value = "Приоритет для тренировки. Основывается на том, сколько существ сейчас занято этой задачей."/>
+		<translation id = "headline_sleeping" 					value = "Сон"/>
+		<translation id = "desc_sleeping" 						value = "Приоритет для сна. Существа всегда хотят спать, если они устали. Установка этого приоритета на низком уровне может привести к тому, что существо будет выполнять другие задачи даже тогда, когда оно несчастно из-за усталости. Никак не зависит от того, сколько существ сейчас занято этой задачей."/>
+		<translation id = "headline_dig" 						value = "Раскопки"/>
+		<translation id = "desc_dig" 							value = "Приоритет для проведения раскопок. Основывается на том, сколько существ сейчас занято этой задачей."/>
+		<translation id = "headline_building" 					value = "Строительство"/>
+		<translation id = "desc_building" 						value = "Приоритет для строительства и доставки строительных материалов. Основывается на том, сколько существ сейчас занято этой задачей."/>
+		<translation id = "headline_claiming_paths" 			value = "Захват новой территории"/>
+		<translation id = "desc_claiming_paths" 				value = "Приоритет для захвата новых территорий. Основывается на том, сколько существ сейчас занято этой задачей."/>
+		<translation id = "headline_store_items" 				value = "Складирование предметов"/>
+		<translation id = "desc_store_items" 					value = "Приоритет для складирования вещей, разбросанных по полу комнат. Основывается на том, сколько существ сейчас занято этой задачей."/>
+		<translation id = "headline_fetch_water_from_wells" 	value = "Добыча воды из колодцев"/>
+		<translation id = "desc_fetch_water_from_wells" 		value = "Приоритет для добычи воды из колодцев. Основывается на том, сколько существ сейчас занято этой задачей."/>
+		<translation id = "headline_fishing" 					value = "Ловля рыбы"/>
+		<translation id = "desc_fishing" 						value = "Приоритет для ловли рыбы. Основывается на том, сколько существ сейчас занято этой задачей."/>
+		<translation id = "headline_transport_wounded" 			value = "Переноска раненых"/>
+		<translation id = "desc_transport_wounded" 				value = "Приоритет для переноски раненых союзников. Основывается на том, сколько существ сейчас занято этой задачей."/>
+		<translation id = "headline_imprison_enemies" 			value = "Запирание врагов"/>
+		<translation id = "desc_imprison_enemies" 				value = "Приоритет для запирания врагов. Основывается на том, сколько существ сейчас занято этой задачей."/>
+		<translation id = "headline_feed_to_dark_mother" 		value = "Скармливать врагов Тёмной матери"/>
+		<translation id = "desc_feed_to_dark_mother" 			value = "Приоритет для скармливания врагов Тёмной матери. Никак не зависит от того, сколько существ сейчас занято этой задачей."/>
+		<translation id = "headline_eat_and_drink" 				value = "Есть и пить"/>
+		<translation id = "desc_eat_and_drink" 					value = "Приоритет для еды и выпивки. Существа всегда хотят есть, если они голодны, и пить, если они начинают трезветь. Установка этого приоритета на низком уровне может привести к тому, что существо будет выполнять другие задачи даже тогда, когда оно несчастно из-за голода или похмелья. Никак не зависит от того, сколько существ сейчас занято этой задачей."/>
+		<translation id = "headline_maintain_traps" 			value = "Обслуживание ловушек"/>
+		<translation id = "desc_maintain_traps" 				value = "Приоритет для обслуживания ловушек. Основывается на том, сколько существ сейчас занято этой задачей."/>
+		<translation id = "headline_equipping" 					value = "Экипировка"/>
+		<translation id = "desc_equipping" 						value = "Приоритет для экипировки нового оружия и снаряжения. Основывается на том, сколько существ сейчас занято этой задачей."/>
+		<translation id = "headline_undefined" 					value = "Прочие задачи"/>
+		<translation id = "desc_undefined" 						value = "Приоритет для действий, не описанных выше. Этот вариант существует только в раннем доступе игры."/>
+		<translation id = "headline_claim_walls" 				value = "Укрепление стен"/>
+		<translation id = "desc_claim_walls" 					value = "Приоритет для укрепления стен. Основывается на том, сколько существ сейчас занято этой задачей."/>
+		<translation id = "headline_rally_flag" 				value = "Флаг сбора"/>
+		<translation id = "desc_rally_flag" 					value = "Приоритет для следования к флагу сбора. Никак не зависит от того, сколько существ сейчас занято этой задачей."/>
+	</namespace>
+
+	<namespace id = "game_messages">
+		<translation id = "steel_smelter_no_production_headline"		value = "Сталеплавильня: низкая производительность"/>
+		<translation id = "steel_smelter_no_production"				value = "Производство стальных слитков замедлилось. Для производства стали возле сталеплавильни должны быть уголь и железо."/>
+		<translation id = "mill_no_production_headline"				value = "Мельница: низкая производительность"/>
+		<translation id = "mill_no_production"						value = "Производство муки замедлилось. Для производства муки нужно перемалывать кривокорни. Проверьте производство кривокорней на поле."/>
+		<translation id = "farm_land_no_production_headline"		value = "Поле: низкая производительность"/>
+		<translation id = "farm_land_no_production"					value = "Производство кривокорней замедлилось. Кривокорни не могут расти без воды, поэтому убедитесь в том, что неподалёку есть колодец, из которого импы могут добывать воду. В зависимости от размера вашей фермы, вам может потребоваться больше одного колодца."/>
+		<translation id = "bewing_vat_no_production_headline"		value = "Пивоваренный чан: низкая производительность"/>
+		<translation id = "bewing_vat_no_production"				value = "Производство пива замедлилось. Для того, чтобы варить пиво, возле пивоваренного чана должны быть кривокорни и вода."/>
+		<translation id = "baking_table_no_production_headline"		value = "Пекарный стол: низкая производительность"/>
+		<translation id = "baking_table_no_production"				value = "Производство хлеба замедлилось. Для того, чтобы печь хлеб, возле пекарного стола должны быть мука, вода, а также древесина для растопки."/>
+		<translation id = "barbeque_no_production_headline"		value = "Жаровня: низкая производительность"/>
+		<translation id = "barbeque_no_production"				value = "Ваша жаровня простаивает без дела. Для того, чтобы производство шло, возле неё должны быть мыши или рыба, а также древесина для растопки."/>
+	</namespace>
+
+	<namespace id = "items">
+		<translation id = "antroot_headline"					value = "Кривокорень"/>
+		<translation id = "antroot" 							value="Этот изогнутый корнеплод можно выращивать и добывать на полях фермы. Он отлично подходит для выращивания под землёй, потому что нуждается только в воде, а свет ему не нужен. Из него можно сварить пиво или смолоть его в муку, чтобы испечь хлеб."/>
+		<translation id = "barbarian_axe_headline"				value = "Варварский топор"/>
+		<translation id = "barbarian_axe" 						value="Обычный варварский топор из стали и дерева. Тяжёлый и неудобный, но смертоносен в умелых руках."/>
+		<translation id = "barbarian_shield_headline"			value = "Варварский щит"/>
+		<translation id = "barbarian_shield" 					value="Обычный варварский щит из стали, дерева и костей. Несмотря на свой маленький размер, он очень тяжёлый. Но те, кто смогут поднять его, останутся довольны его высоким шансом блокировать вражеские атаки."/>
+		<translation id = "barbarian_sword_headline"			value = "Варварский меч"/>
+		<translation id = "barbarian_sword" 					value="Обычный варварский меч из стали и дерева. Он легче топора, но сделан кое-как, поэтому не стоит ждать от него таких же результатов."/>
+		<translation id = "beer_headline"						value = "Пиво"/>
+		<translation id = "beer" 								value="Это сладкое пиво варится на кухне из воды и кривокорня. Пусть импы отнесут его в бар, чтобы ваши подземные пьяницы оставались счастливыми и не страдали от похмелья."/>
+		<translation id = "bent_sword_headline"					value = "Изогнутый меч"/>
+		<translation id = "bent_sword" 							value="Меч изогнутой формы, позволяющий наносить неожиданные атаки даже против самых опытных врагов."/>
+		<translation id = "bone_headline"						value = "Кость"/>
+		<translation id = "bone" 								value="Кусок кости, который можно получить, убив врага или какое-нибудь животное. В основном используется в производстве вещей."/>
+		<translation id = "bone_armor_headline"					value = "Костяная броня"/>
+		<translation id = "bone_armor" 							value="Эта костяная броня сделана из верёвки и костей. Она позволяет выдержать сильные атаки, а её внешний вид вселяет ужас в сердца врагов."/>
+		<translation id = "bone_axe_headline"					value = "Костяной топор"/>
+		<translation id = "bone_axe" 							value="Этот тупой костяной топор сделан из кости и верёвки. Отличное свидетельство того, что кость - не самый лучший материал для оружия."/>
+		<translation id = "bread_headline"						value = "Хлеб"/>
+		<translation id = "bread" 								value="Наверху это самая обычная пища, но в этих тёмных пещерах - самый настоящий деликатес. Готовится из муки и воды на пекарном столе в кухне. Отнесите его в бар, чтобы умерить голод ваших существ и дать им силы исполнять вашу волю."/>
+		<translation id = "cannonball_headline"					value = "Пушечное ядро"/>
+		<translation id = "cannonball" 							value="Снаряды для ваших пушечных ловушек. Чрезвычайно эффективно, если целиться в нужном направлении!"/>
+		<translation id = "cleaver_headline"					value = "Тесак"/>
+		<translation id = "cleaver" 							value="Изначально кухонный инструмент для рубки мяса. Теперь используется на поле боя, в общем-то, с той же целью."/>
+		<translation id = "coal_headline"						value = "Уголь"/>
+		<translation id = "coal" 					rev="2"		value="Кусок окаменелого дерева, в первую очередь использующийся в качестве топлива в мастерской. Этот ресурс легко найти: он встречается во всех слоях."/>
+		<translation id = "fish_headline"						value = "Рыба"/>
+		<translation id = "fish" 								value="Нет ничего удивительного в том, что ваши рыболюди прекрасно умеют ловить рыбу. Всё, что для этого нужно - это точка опоры. Постройте мост рядом с рыбным местом и ваши рыболюди будут нырять и ловить её. А когда её пожарят и отнесут в бар, она поможет вам умерить голод ваших существ."/>
+		<translation id = "flour_headline"						value = "Мука"/>
+		<translation id = "flour" 								value="Мука, смолотая из кривокорня на ферме. Из неё можно испечь хлеб на кухне."/>
+		<translation id = "gold_headline"						value = "Золото"/>
+		<translation id = "gold" 								value="Тяжёлый, ковкий и податливый металл с приятной ярко-жёлтой окраской и блеском, который сохраняется, не тускнея ни на воздухе, ни в воде. Для того, чтобы найти золото, нужно копать очень глубоко, до самого плотного камня."/>
+		<translation id = "hide_armor_headline"					value = "Броня из шкур"/>
+		<translation id = "hide_armor" 							value="Простая и лёгкая броня, сшитая из шкур. Её могут носить почти все существа."/>
+		<translation id = "iron_headline"						value = "Железо"/>
+		<translation id = "iron" 					rev="2"		value="Как и уголь, это один из самых распространённых ресурсов в подземелье. Обычно не встречается на самой поверхности, но прячется не слишком глубоко. В этой руде много грязи и камня, поэтому перед использованием её необходимо очистить в сталеплавильне, что находится в мастерской."/>
+		<translation id = "steel_armor_headline"				value = "Стальная броня"/>
+		<translation id = "steel_armor" 						value="Броня, сделанная из стали, верёвки и кожи. Она очень прочная и очень тяжёлая. Только самые сильные существа могут носить её, оставаясь при этом полезными."/>
+		<translation id = "steel_fist_headline"					value = "Стальной кулак"/>
+		<translation id = "steel_fist" 							value="Простейшее кулачное оружие, сделанное из стали и дерева. С его помощью можно наносить врагам удары разрушительной силы."/>
+		<translation id = "steel_ingot_headline"				value = "Стальной слиток"/>
+		<translation id = "steel_ingot" 						value="Сделан из угля и железа в сталеплавильне, что находится в мастерской. Для удобства дальнейшей обработки отлит в подходящую форму и в основном используется для производства оружия."/>
+		<translation id = "knights_hammer_headline"				value = "Рыцарский молот"/>
+		<translation id = "knights_hammer" 						value="Это могучее двуручное оружие создано специально для рыцарей людских королевств. С его помощью они защищают поверхность от вторжений из-под земли."/>
+		<translation id = "lava_block_headline"					value = "Блок лавы"/>
+		<translation id = "lava_block" 							value="Один блок лавы."/>
+		<translation id = "leather_headline"					value = "Кожа"/>
+		<translation id = "leather"  							value="Кусок кожи, снятый с мёртвых животных и мелких вредителей."/>
+		<translation id = "leather_armor_headline"				value = "Кожаная броня"/>
+		<translation id = "leather_armor"  						value="Простейшая кожаная броня, которая даёт некоторую защиту от вражеских атак. Её могут носить почти любые существа."/>
+		<translation id = "mouse_headline"						value = "Мышь"/>
+		<translation id = "mouse"  								value="Живая мышь, которую можно использовать в мельничном колесе на ферме."/>
+		<translation id = "pitchfork_headline"					value = "Вилы"/>
+		<translation id = "pitchfork"  							value="Инструмент, который крестьяне используют в поле. В принципе можно использовать и как оружие, если нет ничего лучше."/>
+		<translation id = "roasted_fish_headline"				value = "Жареная рыба"/>
+		<translation id = "roasted_fish"  						value="Хрустящая. Можно отнести её в бар, чтобы умерить голод ваших существ."/>
+		<translation id = "roasted_mouse_headline"				value = "Жареная мышь"/>
+		<translation id = "roasted_mouse"  						value="Эта мышь определённо мертва. Можно отнести её в бар, чтобы умерить голод ваших существ."/>
+		<translation id = "rock_headline"						value = "Камень"/>
+		<translation id = "rock"  								value="В подземелье много камня. Настолько много, что рекомендуется на всякий случай посматривать за тем, чтобы на складе было свободное место. Лишний камень можно использовать для постройки украшений или просто продать его на рынке."/>
+		<translation id = "rope_headline"						value = "Верёвка"/>
+		<translation id = "rope"  								value="Верёвка, сплетённая из тонких, но крепких корешков. Получается при рубке толстых корней и используется в ремесле и строительстве."/>
+		<translation id = "spiked_gauntlet_headline"			value = "Шипастая рукавица"/>
+		<translation id = "spiked_gauntlet"  					value="Несмотря на свой простой внешний вид, это очень грозное оружие, в особенности в руках неуравновешенного существа. Сделана из дерева, верёвки и стали."/>
+		<translation id = "water_headline"						value = "Вода"/>
+		<translation id = "water"  								value="Глубоко под твёрдой породой скрыты огромные подземные озёра. Стройте колодцы, чтобы получить доступ к неисчерпаемым запасам прохладной свежей воды для всех ваших фермерских и производственных нужд."/>
+		<translation id = "water_block_headline"				value = "Блок воды"/>
+		<translation id = "water_block"  						value="Один блок воды."/>
+		<translation id = "wood_headline"						value = "Древесина"/>
+		<translation id = "wood"  								value="Мало кто думал, что под землёй можно добывать древесину. Оказалось, что громадные деревья, растущие на поверхности, протягивают свои корни глубоко под землю через трещины в камне. Прикажите своим прислужникам раскопать эти корни, чтобы получить ценную древесину для вашего подземелья."/>
+		<translation id = "wooden_club_headline"				value = "Деревянная дубина"/>
+		<translation id = "wooden_club"  						value="По сути, это просто палка с прикреплённым камнем. Примитивное, но довольно действенное оружие."/>
+		<translation id = "wooden_shield_headline"				value = "Деревянный щит"/>
+		<translation id = "wooden_shield"  						value="Простейший деревянный щит, который даёт своему хозяину небольшой шанс блокировать вражеские удары. Очень дёшев в производстве, но может спасти жизнь."/>
+	</namespace>
+
+	<namespace id = "creatures">
+		<translation id = "bat_headline" 						value="Летучая мышь"/>
+		<translation id = "bat" 								value="Шурх-шурх-шурх."/>
+		<translation id = "trogosaur_headline" 					value="Трогозавр"/>
+		<translation id = "trogosaur" 							value="Закапывается глубоко под землю и строит своё логово на самой твёрдой породе."/>
+		<translation id = "cyclotaur_headline" 					value="Циклотавр"/>
+		<translation id = "cyclotaur" 							value="Мифическое существо с силой быка и зрением циклопа."/>
+		<translation id = "dwarf_headline" 						value="Гном"/>
+		<translation id = "dwarf" 								value="Опытный исследователь пещер, добывающий минералы для королевств, расположенных на поверхности."/>
+		<translation id = "fishman_headline" 					value="Рыбочеловек"/>
+		<translation id = "fishman" 							value="Получеловек, полурыба (и с одной извилиной на двоих). Скрытное существо, которое ничего не боится."/>
+		<translation id = "imp_headline" 						value="Имп"/>
+		<translation id = "imp" 								value="Маленькое зелёное существо, которое неустанно поддерживает ваше подземелье в рабочем состоянии."/>
+		<translation id = "impanzee_headline" 					value="Импанзе"/>
+		<translation id = "impanzee" 							value="Агрессивный территориальный мутант. Судя по всему - гибрид импа и шимпанзе."/>
+		<translation id = "knight_headline" 					value="Рыцарь"/>
+		<translation id = "knight" 								value="Боец первой линии в армии людских королевств. Отличается своей выносливостью и смертоносными размашистыми атаками."/>
+		<translation id = "orc_headline" 						value="Орк"/>
+		<translation id = "orc" 								value="Яростный воин, который с самого детства любит работать и пить пиво."/>
+		<translation id = "peasant_headline" 					value="Крестьянин"/>
+		<translation id = "peasant" 							value="Крестьяне проводят целые дни на полях, выращивая пищу для своих королевств."/>
+		<translation id = "piggeh_headline" 					value="Свинохряк"/>
+		<translation id = "piggeh" 								value="Могучее существо, больше всего на свете любящее готовить (и есть)."/>
+		<translation id = "rogue_headline" 						value="Бандит"/>
+		<translation id = "rogue" 								value="Маленькое алчное существо, любящее поторговаться. Ни в коем случае не поворачивайтесь к ним спиной..."/>
+	</namespace>
+
+	<namespace id = "creature_skills">
+		<translation id = "barrel_roll_headline" 			value="Бочка"/>
+		<translation id = "barrel_roll" 					value="Группируется и подкатывается под ноги врагов, ненадолго оглушая их."/>
+		<translation id = "bull_rush_headline" 			value="Бросок быка"/>
+		<translation id = "bull_rush" 					value="Проносится сквозь строй врагов, подобно бешеному быку. Разрывает врагов на части и не останавливается, пока врежется во что-нибудь более твёрдое."/>
+		<translation id = "butchering_headline" 		value="Резня"/>
+		<translation id = "butchering" 					value="Реализует свой богатый опыт мясника на попавшихся под руку врагах вместо беззащитных животных."/>
+		<translation id = "frog_tongue_headline" 		value="Лягушачий язык"/>
+		<translation id = "frog_tongue" 				value="Выстреливает своим длинным липким языком во врага, притягивая его поближе к себе."/>
+		<translation id = "hurricane_headline" 			value="Ураган"/>
+		<translation id = "hurricane" 					value="Раскручивает своё массивное двуручное оружие вокруг, попадая по всем врагам, осмелившимся подойти слишком близко."/>
+		<translation id = "steal_headline" 				value="Воровство"/>
+		<translation id = "steal" 						value="Ловкие пальцы этого существа позволяют ему воровать предметы прямо с врагов."/>
+		<translation id = "stunning_block_headline" 	value="Удар щитом"/>
+		<translation id = "stunning_block" 				value="Оглушает всех врагов, чей удар был блокирован щитом."/>
+		<translation id = "teleport_headline" 			value="Телепортация"/>
+		<translation id = "teleport" 					value="Если руки существа пусты, оно может по желанию провалиться в четвёртое измерение и таким образом моментально перенестись из одного места в другое."/>
+	</namespace>
+
+	<namespace id = "buildings">
+		<translation id="dark_mother_room_headline" 					value="Комната Тёмной матери"/>
+		<translation id="dark_mother_room"  							value="Комната Тёмной матери - это сердце вашего подземелья. Именно здесь появляются новые прислужники."/>
+		<translation id="portal_headline"  								value="Портал"/>
+		<translation id="portal"  			 							value="Портал, соединяющий подземелье с поверхностью."/>
+		<translation id="well_headline"  								value="Колодец"/>
+		<translation id="well"  			 							value="Бесконечный источник свежей воды."/>
+		<translation id="bar_room_headline"  							value="Бар"/>
+		<translation id="bar_room"  			 						value="Место, где ваши прислужники могут подкрепиться и промочить горло."/>
+		<translation id="bed_room_headline"  				 			value="Спальня"/>
+		<translation id="bed_room"  			 						value="Здесь ваши прислужники могут спать, чтобы восстановить силы и здоровье."/>
+		<translation id="catacombs_room_headline"  						value="Катакомбы"/>
+		<translation id="catacombs_room"  								value="Здесь обитает нежить."/>
+		<translation id="claimed_path_headline"  						value="Дорога"/>
+		<translation id="claimed_path"  								value="Дорога позволяет передвигаться быстрее. Её можно улучшить дважды."/>
+		<translation id="claimed_wall_headline"  						value="Укреплённая стена"/>
+		<translation id="claimed_wall"  			 					value="Стену можно укрепить, чтобы её было сложнее прокопать."/>
+		<translation id="cookery_room_headline"  						value="Кухня"/>
+		<translation id="cookery_room"  								value="Здесь готовится вся еда и выпивка."/>
+		<translation id="farm_room_headline"  							value="Ферма"/>
+		<translation id="farm_room"  			 						value="Здесь можно выращивать растения, собирать урожай и обрабатывать его."/>
+		<translation id="grass_headline"  			 					value="Трава"/>
+		<translation id="grass"  			 							value="Обыкновенная трава."/>
+		<translation id="graveyard_room_headline"  						value="Кладбище"/>
+		<translation id="graveyard_room"  								value="Место последнего упокоения."/>
+		<translation id="guard_room_headline"  							value="Пост охраны"/>
+		<translation id="guard_room"  			 						value="Постройка постов охраны поможет вам сконцентрировать защиту подземелья."/>
+		<translation id="house_room_headline"  							value="Дом"/>
+		<translation id="house_room"  			 						value="Фундамент дома."/>
+		<translation id="impanzee_room_headline"  						value="Комната импанзе"/>
+		<translation id="impanzee_room"  			 					value="Остатки комнаты, которую захватили импанзе."/>
+		<translation id="maze_floor_headline"  			 				value="Пол лабиринта"/>
+		<translation id="maze_floor"  			 						value="Обыкновенный бесшовный пол, который используется в лабиринтах, чтобы запутать непрошеных гостей."/>
+		<translation id="maze_wall_headline"  					 		value="Стена лабиринта"/>
+		<translation id="maze_wall"  			 						value="Крепкая стена лабиринта, которую невозможно прокопать."/>
+		<translation id="crafting_room_headline"  						value="Мастерская"/>
+		<translation id="crafting_room"  								value="Комната, в которой производится вся ремесленная деятельность."/>
+		<translation id="prison_room_headline"  						value="Тюрьма"/>
+		<translation id="prison_room"  									value="Здесь можно безопасно удерживать ваших врагов."/>
+		<translation id="rock_headline"  			 					value="Камень"/>
+		<translation id="rock"  			 							value="Стена из обыкновенного камня."/>
+		<translation id="solid_rock_headline"  							value="Твёрдый камень"/>
+		<translation id="solid_rock"  			 						value="Стена из твёрдого камня, который невозможно прокопать."/>
+		<translation id="statue_impanzee_headline"  					value="Статуя импанзе"/>
+		<translation id="statue_impanzee"  					 			value="Статуя в честь неутомимых импанзе."/>
+		<translation id="statue_orc_headline"  							value="Статуя орка"/>
+		<translation id="statue_orc"  			 						value="Статуя в честь яростных орков."/>
+		<translation id="storage_room_headline" 			 			value="Склад"/>
+		<translation id="storage_room"  					 			value="Хранящиеся здесь вещи считаются вашими."/>
+		<translation id="trading_room_headline"  						value="Торговый пост"/>
+		<translation id="trading_room"  								value="Здесь можно торговать с другими колониями."/>
+		<translation id="training_room_headline"  						value="Тренировочная комната"/>
+		<translation id="training_room"  								value="Здесь вы можете подготовить своих прислужников к будущим битвам."/>
+		<translation id="arc_bridge_headline"  							value="Изогнутый мост"/>
+		<translation id="arc_bridge"  									value="Мост изогнутой формы."/>
+		<translation id="bedroom_fireplace_headline"   		 			value="Камин"/>
+		<translation id="bedroom_fireplace"   			 				value="Камин, специально спроектированный для спальни."/>
+		<translation id="chest_headline"   			 					value="Сундук"/>
+		<translation id="chest"   			 							value="Все сундуки забиты разными предметами и сокровищами, которые могут забрать ваши импы."/>
+		<translation id="cookery_room_baking_table_headline"   			value="Пекарный стол"/>
+		<translation id="cookery_room_baking_table"   			 		value="На пекарном столе можно испечь хлеб."/>
+		<translation id="cookery_room_barbeque_headline"   			 	value="Жаровня"/>
+		<translation id="cookery_room_barbeque"   			 			value="Здесь можно жарить рыбу и вкусных мышей."/>
+		<translation id="cookery_room_brewing_vat_headline"   			value="Пивоваренный чан"/>
+		<translation id="cookery_room_brewing_vat"   			 		value="Здесь можно сварить пиво."/>
+		<translation id="cookery_room_wall_barrels_headline"   			value="Настенные бочки"/>
+		<translation id="cookery_room_wall_barrels"   			 		value="Настенные бочки для украшения кухни."/>
+		<translation id="wall_torch_headline"   			 			value="Настенный факел"/>
+		<translation id="wall_torch"   			 						value="Обычный настенный факел, позволяющий разогнать подземный мрак."/>
+		<translation id="maze_door_headline"   			 				value="Дверь лабиринта"/>
+		<translation id="maze_door"   			 						value="Дверь лабиринта."/>
+		<translation id="wooden_door_headline"   			 			value="Деревянная дверь"/>
+		<translation id="wooden_door"   			 					value="Эта деревянная дверь немного замедлит ваших врагов, давая вам время организовать защиту."/>
+		<translation id="farm_room_farm_land_headline"   				value="Поле"/>
+		<translation id="farm_room_farm_land"   			 			value="На этом поле можно растить кривокорни и собирать урожай."/>
+		<translation id="farm_room_farm_land_gate_headline"   			value="Калитка"/>
+		<translation id="farm_room_farm_land_gate"   					value="Эту калитку можно встроить в ограду поля."/>
+		<translation id="farm_room_mill_headline"   					value="Мельничное колесо"/>
+		<translation id="farm_room_mill"   			 					value="Перемалывает кривокорни в муку."/>
+		<translation id="fishes_headline"   			 				value="Рыба"/>
+		<translation id="fishes"   			 							value="Её можно пожарить и съесть, но сначала нужно поймать."/>
+		<translation id="crafting_room_forge_and_anvil_headline"   		value="Кузня с наковальней"/>
+		<translation id="crafting_room_forge_and_anvil"   				value="Здесь из железа и других материалов можно сделать оружие или броню."/>
+		<translation id="graveyard_room_land_headline"   			 	value="Кладбищенская земля"/>
+		<translation id="graveyard_room_land"   			 			value="Земля с кладбища."/>
+		<translation id="graveyard_room_land_gate_headline"   			value="Кладбищенские ворота"/>
+		<translation id="graveyard_room_land_gate"   			 		value="Ворота, ведущие на кладбище."/>
+		<translation id="dark_mother_room_barrel_headline"   			value="Бочка"/>
+		<translation id="dark_mother_room_barrel"   			 		value="Эти бочки используются для хранения предметов в комнате Тёмной матери."/>
+		<translation id="dark_mother_room_grate_storage_headline"   	value="Напольная решётка"/>
+		<translation id="dark_mother_room_grate_storage"   			 	value=""/>
+		<translation id="house_inside_door_headline"   			 		value="Дверь дома"/>
+		<translation id="house_inside_door"   			 				value="Простая дверь."/>
+		<translation id="house_inside_window_headline"   			 	value="Окно дома"/>
+		<translation id="house_inside_window"   			 			value="Простое окно."/>
+		<translation id="hydraulics_cannon_headline"   			 		value="Пушка"/>
+		<translation id="hydraulics_cannon"   			 				value="Накопив достаточно давления, пушка может выстрелить пылающим ядром в ту сторону, куда она повёрнута."/>
+		<translation id="hydraulics_counter_headline"   			 	value="Гидравлическое реле"/>
+		<translation id="hydraulics_counter"   			 				value="Каждый раз, когда давление достигает реле, оно включается или выключается, позволяя контролировать давление."/>
+		<translation id="hydraulics_dynamite_headline"   			 	value="Гидравлический динамит"/>
+		<translation id="hydraulics_dynamite"   			 			value="Когда на него подаётся давление, происходит гигантский взрыв, уничтожающий стены (и существ, если им не хватило ума убраться подальше)."/>
+		<translation id="hydraulics_inverter_headline"   			 	value="Гидравлический инвертор"/>
+		<translation id="hydraulics_inverter"   			 			value="Подаёт давление в одну сторону, если на него не подаётся давление с другой стороны."/>
+		<translation id="hydraulics_movable_wall_headline"   			value="Гидравлическая движущаяся стена"/>
+		<translation id="hydraulics_movable_wall"   			 		value="Прекрасно подходит для уничтожения ничего не подозревающих врагов."/>
+		<translation id="hydraulics_pipes_headline"   			 		value="Гидравлические трубы"/>
+		<translation id="hydraulics_pipes"   			 				value="Используются для передачи давления между различными гидравлическими механизмами."/>
+		<translation id="hydraulics_pressure_pad_headline"   			value="Гидравлическая панель"/>
+		<translation id="hydraulics_pressure_pad"   			 		value="Когда на неё наступает враг, она подаёт давление на соседние механизмы."/>
+		<translation id="hydraulics_repeater_headline"   			 	value="Гидравлический концентратор"/>
+		<translation id="hydraulics_repeater"   			 			value="Позволяет давлению двигаться только в одну сторону. Прекрасно подходит для создания циклов."/>
+		<translation id="hydraulics_switch_headline"   			 		value="Гидравлический переключатель"/>
+		<translation id="hydraulics_switch"   			 				value="Позволяет включать и выключать давление."/>
+		<translation id="crafting_room_steel_smelter_headline"   		value="Сталеплавильня"/>
+		<translation id="crafting_room_steel_smelter"   			 	value="Позволяет выплавлять сталь из железной руды и угля."/>
+		<translation id="mouse_trap_headline"   			 			value="Мышеловка"/>
+		<translation id="mouse_trap"   			 						value="Ловушка для мышей."/>
+		<translation id="prison_room_prison_bars_headline"   			value="Тюремная решётка"/>
+		<translation id="prison_room_prison_bars"   			 		value="За этой решёткой вы можете держать своих врагов."/>
+		<translation id="prison_room_prison_door_headline"   			value="Тюремная дверь"/>
+		<translation id="prison_room_prison_door"   			 		value="Дверь для вашей тюрьмы."/>
+		<translation id="prison_room_hand_torch_headline"   			value="Факел-рука"/>
+		<translation id="prison_room_hand_torch"   			 			value="Напольный факел, сделанный из отрубленной руки."/>
+		<translation id="prison_room_wall_skull_headline"   			value="Факел-череп"/>
+		<translation id="prison_room_wall_skull"   			 			value="Настенный факел, сделанный из черепа."/>
+		<translation id="training_room_punching_pig_headline"   		value="Свинья для битья"/>
+		<translation id="training_room_punching_pig"   			 		value="Отличная тренировочная цель для ваших бойцов."/>
+		<translation id="crafting_room_sewing_machine_headline"   		value="Швейная машинка"/>
+		<translation id="crafting_room_sewing_machine"   			 	value="Здесь можно сшить одежду из кожи и верёвок."/>
+		<translation id="stone_bridge_headline"   			 			value="Каменный мост"/>
+		<translation id="stone_bridge"   			 					value="Каменный мост, которому не страшна лава."/>
+		<translation id="storage_room_corner_shelf_headline"   			value="Угловая полка"/>
+		<translation id="storage_room_corner_shelf"   			 		value="Угловая полка для хранения предметов."/>
+		<translation id="storage_room_cross_table_headline"   			value="Крестообразный складской стол"/>
+		<translation id="storage_room_cross_table"   			 		value="Крестообразный стол для хранения предметов."/>
+		<translation id="storage_room_round_table_headline"   			value="Круглый складской стол"/>
+		<translation id="storage_room_round_table"   			 		value="Круглый стол для хранения предметов."/>
+		<translation id="storage_room_shelf_headline"   			 	value="Полка"/>
+		<translation id="storage_room_shelf"   			 				value="Полка для хранения предметов."/>
+		<translation id="storage_room_square_table_headline"   			value="Квадратный складской стол"/>
+		<translation id="storage_room_square_table"   			 		value="Квадратный стол для хранения предметов."/>
+		<translation id="storage_room_wall_shelf_headline"   			value="Стенной шкаф"/>
+		<translation id="storage_room_wall_shelf"   			 		value="Стенной шкаф для хранения предметов."/>
+		<translation id="trading_room_loading_dock_headline"   			value="Товарная платформа"/>
+		<translation id="trading_room_loading_dock"   			 		value="Товарная платформа для торговли с другими колониями."/>
+		<translation id="water_lilies_headline"   			 			value="Кувшинки"/>
+		<translation id="water_lilies"   			 					value="Кувшинка обыкновенная."/>
+		<translation id="wooden_bridge_headline"   			 			value="Деревянный мост"/>
+		<translation id="wooden_bridge"   			 					value="Обычный деревянный мост, не дающий существам упасть в воду."/>
+		<translation id="wooden_ladder_headline"   			 			value="Деревянная лестница"/>
+		<translation id="wooden_ladder"   			 					value="С этой лестницей ваши существа достигнут новых высот."/>
+		<translation id="bar_room_chair_headline"   			 		value="Барный стул"/>
+		<translation id="bar_room_chair"   			 					value="Ваши существа могут присесть на него, пока подкрепляются или утоляют жажду."/>
+		<translation id="bar_room_round_table_headline"   			 	value="Круглый барный стол"/>
+		<translation id="bar_room_round_table"   			 			value="Просто круглый барный стол."/>
+		<translation id="bar_room_square_table_headline"   			 	value="Квадратный барный стол"/>
+		<translation id="bar_room_square_table"   			 			value="Просто квадратный барный стол."/>
+		<translation id="bedroom_cyclotaur_bed_headline"   			 	value="Кровать для циклотавра"/>
+		<translation id="bedroom_cyclotaur_bed"   			 			value="На этой кровати может спать только циклотавр."/>
+		<translation id="bedroom_fishman_bed_headline"   			 	value="Кровать для рыбочеловека"/>
+		<translation id="bedroom_fishman_bed"   			 			value="На этой кровати может спать только рыбочеловек."/>
+		<translation id="bedroom_imp_bed_headline"   			 		value="Кровать для импа"/>
+		<translation id="bedroom_imp_bed"   			 				value="На этой кровати может спать только имп."/>
+		<translation id="bedroom_impanzee_bed_headline"   			 	value="Кровать для импанзе"/>
+		<translation id="bedroom_impanzee_bed"   			 			value="На этой кровати может спать только импанзе."/>
+		<translation id="bedroom_knight_bed_headline"   			 	value="Кровать для рыцаря"/>
+		<translation id="bedroom_knight_bed"   			 				value="На этой кровати может спать только рыцарь."/>
+		<translation id="bedroom_orc_bed_headline"   			 		value="Кровать для орка"/>
+		<translation id="bedroom_orc_bed"   			 				value="На этой кровати может спать только орк."/>
+		<translation id="bedroom_piggeh_bed_headline"   			 	value="Кровать для свинохряка"/>
+		<translation id="bedroom_piggeh_bed"   			 				value="На этой кровати может спать только свинохряк."/>
+		<translation id="bedroom_rogue_bed_headline"   			 		value="Кровать для бандита"/>
+		<translation id="bedroom_rogue_bed"   			 				value="На этой кровати может спать только бандит."/>
+		<translation id="bush_headline"   			 					value="Куст"/>
+		<translation id="bush"   			 							value="Просто куст."/>
+		<translation id="camp_fire_headline"   			 				value="Костёр"/>
+		<translation id="camp_fire"   			 						value="Просто костёр."/>
+		<translation id="catacombs_room_sarcophagus_headline"   		value="Гробница"/>
+		<translation id="catacombs_room_sarcophagus"   			 		value="Здесь спят мёртвые."/>
+		<translation id="fireplate_headline"		 					value="Факел"/>
+		<translation id="fireplate"   		 							value="Отблески пламени пляшут на мрачных подземных стенах."/>
+		<translation id="glowing_mushrooms_headline"   			 		value="Светящиеся грибы"/>
+		<translation id="glowing_mushrooms"   			 				value="Делянка светящихся волшебных грибов."/>
+		<translation id="grass_tuft_headline"   			 			value="Цветы"/>
+		<translation id="grass_tuft"   			 						value="Цветочная клумба."/>
+		<translation id="house_bed_headline"   			 				value="Простая кровать"/>
+		<translation id="house_bed"   			 						value="Человеческая кровать."/>
+		<translation id="house_inside_headline"   			 			value="Внутренняя часть дома"/>
+		<translation id="house_inside"   			 					value="Внутренняя часть дома."/>
+		<translation id="house_table_headline"   			 			value="Простой стол"/>
+		<translation id="house_table"   			 					value="Человеческий стол."/>
+		<translation id="insignia_headline"   			 				value="Эмблема"/>
+		<translation id="insignia"   			 						value="Военная эмблема для украшения подземелья."/>
+		<translation id="mine_headline"   			 					value="Шахта"/>
+		<translation id="mine"   			 							value="Шахту можно построить над месторождением полезных ископаемых. Так получится добыть гораздо больше, но это займёт больше времени."/>
+		<translation id="outside_rogue_bed_headline"   		 			value="Кровать для бандита"/>
+		<translation id="outside_rogue_bed"   				 			value="На этой кровати может спать только бандит"/>
+		<translation id="painting_headline"   			 				value="Картина"/>
+		<translation id="painting"   			 						value="Яркая картина, которая может украсить одну из стен вашего подземелья."/>
+		<translation id="pine_tree_headline"   			 				value="Сосна"/>
+		<translation id="pine_tree"   			 						value="Сосну можно срубить, чтобы получить древесину."/>
+		<translation id="rock_pile_headline"   			 				value="Груда камней"/>
+		<translation id="rock_pile"   			 						value="Груда самых обычных камней."/>
+		<translation id="rock_pile_moss_headline"   			 		value="Груда замшелых камней"/>
+		<translation id="rock_pile_moss"   			 					value="Груда обросших мхом камней."/>
+		<translation id="stone_fence_headline"   			 			value="Каменная ограда"/>
+		<translation id="stone_fence"   			 					value="Каменная ограда позволяет держать врагов на расстоянии."/>
+		<translation id="training_room_dart_board_headline"   			value="Мишень для дротиков"/>
+		<translation id="training_room_dart_board"   			 		value="Простейшее настенное украшение."/>
+		<translation id="tree_headline"   			 					value="Дерево"/>
+		<translation id="tree"   			 							value="Можно срубить, чтобы получить древесину."/>
+		<translation id="wall_lantern_headline"   			 			value="Настенный фонарь"/>
+		<translation id="wall_lantern"   			 					value="Обыкновенный настенный фонарь, освещающий ваше подземелье."/>
+		<translation id="wall_manacles_headline"   			 			value="Настенные кандалы"/>
+		<translation id="wall_manacles"   			 					value="Вы можете украсить ваше подземелье пыточными инструментами, чтобы напомнить существам, кто тут главный."/>
+	</namespace>
+
+	<namespace id = "campaign">
+		<namespace id = "bed_and_breakfast">
+			<namespace id = "subtitles">
+				<translation id = "glorious_morning_1"			value = "Ах, эта сельская местность, полная счастья и радости. Чудесное утро, яркое солнышко, тёплые улыбки."/>
+				<translation id = "glorious_morning_2"			value = "Какая мерзость!"/>
+				<translation id = "glorious_morning_3"			value = "Ну что же, займись ими, хранитель. Твоя помощь окажется как нельзя кстати, если мы хотим показать этим наивным глупцам, как они заблуждаются."/>
+
+				<translation id = "i_command_you"				value = "Слушай же мой приказ. Тебе предстоит создать могучую армию и уничтожить всех этих надземных жителей, которые в своей надменности считают себя добрыми, правильными, настоящими повелителями мира."/>
+
+				<translation id = "presenting_creatures"		value = "Пока в твоём распоряжении будут только импы и свинохряки."/>
+				<translation id = "presenting_imps"				value = "Импы - твоя главная рабочая сила, они выполняют в подземелье почти любые задачи"/>
+				<translation id = "presenting_piggehs"			value = "Свинохряки работают только на кухне. Их можно отправить в битву, но они не будут особенно торопиться."/>
+
+				<translation id = "build_bar_room"				value = "Первым делом тебе необходимо построить бар. Но сначала для этого нужно раскопать территорию."/>
+				<translation id = "bar_room_finished"			value = "Отличная работа! Теперь твоим существам есть где посидеть, пока они наедаются и напиваются."/>
+
+				<translation id = "build_farm_room"				value = "Но это всё бесполезно, если у нас не будет еды для них. Самое необходимое для производства еды можно вырастить на ферме. Поэтому займись-ка постройкой фермы!"/>
+				<translation id = "build_mill"					value = "Так, теперь у нас есть поля, на которых можно вырастить кривокорни. Теперь нам нужно мельничное колесо, чтобы смолоть их в муку."/>
+				<translation id = "no_water"					value = "Как ты можешь заметить, кривокорни на поле расти отказываются. Это потому, что им нужна вода."/>
+				<translation id = "build_well"					value = "Нужно построить колодец где-нибудь неподалёку. Можешь продать часть фермы, чтобы разместить колодец там."/>
+				<translation id = "build_mouse_trap"			value = "Обрати внимание на то, сколько мышей бегает по подземелью. Мыши - хороший источник белка, импы любят их есть. Поставь-ка мышеловку, чтобы импы могли положить туда кривокорень в качестве приманки и наловить мышей."/>
+				<translation id = "farm_room_finished"			value = "Замечательно! Теперь ты можешь добывать воду, кривокорни, муку и мышей. Осталось только построить кухню, чтобы свинохряки могли заняться готовкой."/>
+
+				<translation id = "build_bed_room"				value = "Ну что же, теперь твоим существам есть чем набить животы. Теперь нужно обеспечить им место для сна, потому что сонные существа - это недовольные существа. Построй для них спальню, чтобы не доводить дело до бунта."/>
+				<translation id = "build_farm_land_gate"		value = "Похоже, что твои существа не могут добраться до места раскопок. Построй калитку в ограде поля, чтобы они могли пройти."/>
+
+				<translation id = "build_creature_beds"			value = "Поставь по три кровати для каждого типа существ. На них они смогут не только спать, но и лечиться после тяжёлой битвы."/>
+
+				<translation id = "build_cookery_room"			value = "Замечательно! Теперь наконец можно заняться постройкой кухни."/>
+
+				<translation id = "build_cookery_room_buildings"			value = "Для готовки еды и пива тебе потребуются пекарный стол, жаровня и пивоваренный чан."/>
+
+				<translation id = "ready_for_the_next_step"		value = "Рано ещё гордиться собой. Ты можешь помочь своим существам с их основными потребностями, но без боя не обойтись. Давай-ка посмотрим, сможешь ли ты справиться с этими людишками..."/>
+			</namespace>
+			<translation id = "headline_build_bar_dig"			value = "Первые раскопки"/>
+			<translation id = "message_build_bar_dig" 			value = "Раскопай подсвеченную территорию, выбрав её левой кнопкой мыши."/>
+			<translation id = "headline_build_bar_room"			value = "Построй бар"/>
+			<translation id = "message_build_bar_room" 			value = "Нажми правой кнопкой на раскопанной территории. Откроется радиальное меню, в котором можно выбрать бар. Построй комнату для бара, проведя молотком по подсвеченной территории."/>
+			<translation id = "headline_build_bar_table"		value = "Поставь барный стол"/>
+			<translation id = "message_build_bar_table" 		value = "Теперь открой радиальное меню в только что построенном баре и выбери в нём барный стол. Поставь его на подсвеченном месте."/>
+			<translation id = "headline_dig_and_build_farm_room"	value = "Построй ферму"/>
+			<translation id = "message_dig_and_build_farm_room" 	value = "Раскопай подсвеченную территорию и построй там ферму."/>
+			<translation id = "headline_build_farm_land"		value = "Построй поле"/>
+			<translation id = "message_build_farm_land" 		value = "Открой радиальное меню в ферме и выбери поле. Построй его на подсвеченном месте."/>
+			<translation id = "headline_build_mill"				value = "Построй мельничное колесо"/>
+			<translation id = "message_build_mill" 				value = "Теперь построй мельничное колесо на подсвеченном месте."/>
+			<translation id = "headline_build_well"				value = "Освободи место для колодца"/>
+			<translation id = "message_build_well" 				value = "Открой радиальное меню и выбери кнопку продажи. Продай подсвеченный участок фермы и построй на его месте колодец."/>
+			<translation id = "headline_build_mouse_trap"		value = "Поставь мышеловку"/>
+			<translation id = "message_build_mouse_trap" 		value = "Поставь мышеловку на подсвеченном месте."/>
+			<translation id = "headline_build_bed_room"			value = "Построй спальню"/>
+			<translation id = "message_build_bed_room" 			value = "Раскопай подсвеченную территорию и построй там спальню."/>
+			<translation id = "headline_build_farm_land_gate"	value = "Построй калитку в ограде поля"/>
+			<translation id = "message_build_farm_land_gate" 	value = "Открой радиальное меню на ферме и выбери калитку. Построй её на подсвеченном месте."/>
+			<translation id = "headline_build_beds"				value = "Поставь кровати"/>
+			<translation id = "message_build_beds" 				value = "Поставь по три кровати для свинохряков и импов в своей новой спальне."/>
+			<translation id = "headline_build_a_cookery_room"	value = "Построй кухню"/>
+			<translation id = "message_build_a_cookery_room" 	value = "Раскопай подсвеченную территорию и построй там кухню."/>
+			<translation id = "headline_build_cookery_room_buildings"	value = "Начни производство пищи"/>
+			<translation id = "message_build_cookery_room_buildings" 	value = "Поставь пекарный стол, жаровню и пивоваренный чан в своей новой кухне."/>
+		</namespace>
+	</namespace>
+	
+	<namespace id ="closing_game">
+		<translation id = "waiting_for_thread" 						value = "-- Ожидание процесса: '%s1' --"/>
+		<translation id = "closing_game_threads" 					value = "Закрываю игровой процесс..."/>
+		<translation id = "saving_game_keys" 						value = "Сохраняю ключи игры..."/>
+		<translation id = "cleaning_up_game_data" 					value = "Очищаю игровые данные..."/>
+		<translation id = "deleting_thread_handler" 				value = "Удаляю обработчик процесса..."/>
+		<translation id = "cleaning_up_steam_engine" 				value = "Освобождаю движок..."/>
+	</namespace>
+	
+</localization>
