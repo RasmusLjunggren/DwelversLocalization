@@ -1115,7 +1115,7 @@
 		<translation id="maze_floor"  			 						value="Обыкновенный бесшовный пол, который используется в лабиринтах, чтобы запутать непрошеных гостей."/>
 		<translation id="maze_wall_headline"  					 		value="Стена лабиринта"/>
 		<translation id="maze_wall"  			 						value="Крепкая стена лабиринта, которую невозможно прокопать."/>
-		<translation id="crafting_room_headline"  						value="Мастерская"/>
+		<translation id="crafting_room_headline"  				rev="2"			value="Мастерская"/>
 		<translation id="crafting_room"  								value="Комната, в которой производится вся ремесленная деятельность."/>
 		<translation id="prison_room_headline"  						value="Тюрьма"/>
 		<translation id="prison_room"  									value="Здесь можно безопасно удерживать ваших врагов."/>
