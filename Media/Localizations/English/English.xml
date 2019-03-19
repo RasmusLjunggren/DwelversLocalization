@@ -4,37 +4,88 @@
 	<namespace id ="menu">
 		<namespace id ="general">
 			<namespace id ="create_game">
-				<translation id = "map_seed" 					value = "Map Seed"/>
-				<translation id = "map_width" 					value = "Map Width"/>
-				<translation id = "map_height" 					value = "Map Height"/>
-				<translation id = "map_depth" 					value = "Map Depth"/>
-				<translation id = "map_size_unit" 				value = "Blocks"/>
-				<translation id = "num_portals" 				value = "Number of Portals"/>
-
-				<translation id = "no_creatures" 				value = "No Creatures"/>
-				<translation id = "clean_surface" 				value = "Clean Surface"/>
+				<translation id = "game_mode_headline" 			value = "Game Mode"/>
 				<translation id = "game_difficulty" 			value = "Game Difficulty"/>
 				<translation id = "new_creative_game" 			rev="2"		value = "Peaceful Game"/>
 				<translation id = "new_easy_game" 				value = "Easy Game"/>
 				<translation id = "new_normal_game" 			value = "Normal Game"/>
 				<translation id = "new_hard_game" 				value = "Hard Game"/>
 				<translation id = "new_impossible_game" 		value = "Impossible Game"/>
+								
+				<translation id = "menu_options_headline"		value = "Menu Options"/>
+				<translation id = "reset_options" 				value = "Reset All"/>
+
+				<translation id = "victory_condition" 										value = "Victory Condition"/>
+				<translation id = "victory_condition_none" 									value = "None"/>
+				<translation id = "victory_condition_kill_all" 								value = "Kill All Enemies"/>
+				<translation id = "victory_condition_kill_all_on_surface" 					value = "Kill All Enemies On Surface"/>
+				<translation id = "victory_condition_kill_all_in_dungeon"					value = "Kill All Enemies In Dungeon"/>
+				<translation id = "victory_condition_kill_num_enemies"						value = "Kill Num Enemies"/>
+				<translation id = "victory_condition_take_over_all_portals" 				value = "Take Over All Portals"/>
+				<translation id = "victory_condition_take_over_num_portals" 				value = "Take Over Portals Amount"/>
+				<translation id = "victory_condition_survive_time" 							value = "Survive Time"/>
+				<translation id = "victory_condition_stack_item_type" 						value = "Stack Item Type"/>
+				<translation id = "victory_condition_reach_spell_level"						value = "Reach Spell Level"/>
+				<translation id = "victory_condition_reach_crafting_level"					value = "Reach Crafting Level"/>
+
+				<translation id = "victory_condition_kill_num_enemies_amount" 				value = "Num Enemies"/>
+				<translation id = "victory_condition_take_over_num_portals_amount" 			value = "Num Portals"/>
+				<translation id = "victory_condition_survive_time_amount_prefix" 			value = "Survive"/>
+				<translation id = "victory_condition_survive_time_amount_suffix" 			value = "Minutes"/>
+				<translation id = "victory_condition_stack_item_type_type"					value = "Item Type"/>
+				<translation id = "victory_condition_stack_item_type_amount"				value = "Num Items"/>
+				<translation id = "victory_condition_reach_spell_level_amount"				value = "Spell Level"/>
+				<translation id = "victory_condition_reach_crafting_level_amount"			value = "Crafting Level"/>
+
 				<translation id = "enable_endless_flow_mode" 	value = "Enable Endless Flow Mode"/>
-				<translation id = "enable_pause" 				value = "Enable Pause"/>
 				<translation id = "enable_progression_mode" 	value = "Enable Progression Mode"/>
-				<translation id = "enable_cyclotaur_maze" 		value = "Enable Cyclotaur Maze"/>
-				<translation id = "cheating_mode_enabled" 		value = "Cheating Mode Enabled"/>
+				<translation id = "enable_pause" 				value = "Enable Pause"/>
 
-				<translation id = "creature_level_min" 			value = "Minimum Creature Level"/>
-				<translation id = "creature_level_max" 			value = "Maximum Creature Level"/>
-				<translation id = "water_amount" 				value = "Water Amount"/>
-				<translation id = "lava_amount" 				value = "Lava Amount"/>
-				<translation id = "editor_level_type_random" 		value = "Map type: Random"/>
-				<translation id = "editor_level_type_rock" 			value = "Map type: Rock"/>
-				<translation id = "editor_level_type_solid_rock" 	value = "Map type: Solid Rock"/>
+				<translation id = "unit_blocks" 					value = "Blocks"/>
 				
-			</namespace>
+				<translation id = "map_creation_headline" 			value = "Map Creation"/>
+				<translation id = "map_seed" 					value = "Map Seed"/>
+				<translation id = "map_size" 						value = "Size"/>
+				<translation id = "map_depth" 						value = "Depth"/>
+				<translation id = "map_type" 						value = "Type"/>
+				<translation id = "map_type_smooth" 				value = "Smooth"/>
+				<translation id = "map_type_normal" 				value = "Normal"/>
+				<translation id = "map_type_jagged" 				value = "Jagged"/>
+				<translation id = "clean_surface" 				value = "Clean Surface"/>				
+				
+				<translation id = "terraforming_headline" 			value = "Terraforming"/>
+				<translation id = "ridge_amount" 					value = "Ridges"/>
+				<translation id = "water_lake_amount" 				value = "Water Lakes"/>
+				<translation id = "water_river_amount" 				value = "Water Rivers"/>
+				<translation id = "lava_lake_amount" 				value = "Lava Lakes"/>
+				<translation id = "lava_river_amount" 				value = "Lava Rivers"/>
+								
+				<translation id = "rooms_and_areas_headline"		value = "Rooms and Areas"/>
+				<translation id = "portal_rooms_headline"			value = "Portal Rooms"/>
+				<translation id = "catacombs_rooms_headline"		value = "Catacombs Rooms"/>
+				<translation id = "prison_rooms_headline"			value = "Prison Rooms"/>
+				<translation id = "impanzee_rooms_headline"			value = "Impanzee Rooms"/>
+				<translation id = "maze_rooms_headline"				value = "Maze Rooms"/>
+				<translation id = "outpost_rooms_headline"			value = "Outpost Rooms"/>
+				<translation id = "glowing_mushrooms_headline"		value = "Glowing Mushrooms"/>
+				<translation id = "water_beaches_headline"			value = "Water Beaches"/>
+				<translation id = "lava_beaches_headline"			value = "Lava Beaches"/>
+				<translation id = "the_surface_headline"			value = "The Surface"/>
 
+				<translation id = "room_amount" 					value = "Room Amount"/>
+				<translation id = "creature_amount" 				value = "Creature Amount"/>
+				<translation id = "creature_level" 					value = "Creature Level"/>		
+				
+				<translation id = "minerals_headline"				value = "Minerals and Cave-Ins"/>
+				<translation id = "mineral_wood_amount"				value = "Wood Amount"/>
+				<translation id = "mineral_coal_amount"				value = "Coal Amount"/>
+				<translation id = "mineral_iron_amount"				value = "Iron Amount"/>
+				<translation id = "mineral_gold_amount"				value = "Gold Amount"/>
+				<translation id = "mineral_cave_in_amount"			value = "Cave-In Amount"/>
+								
+				<translation id = "cheating_mode_enabled" 		value = "Cheating Mode Enabled"/>				
+			</namespace>
+	
 			<translation id = "leave_level" 					value = "Leave This Level"/>
 			<translation id = "leave_level_confirm" 			value = "Yes, I want to leave this level."/>
 			<translation id = "main_menu" 						value = "Main Menu"/>
@@ -62,8 +113,9 @@
 			<translation id = "create_new" 						value = "--- Create New Savegame ---"/>
 			<translation id = "create_new_editor" 				value = "--- Create New Editor Map ---"/>
 			<translation id = "name_savegame" 					value = "Name your savegame."/>
-			<translation id = "saving_game"						value = "Saving game..."/>
-			<translation id = "loading_game" 					value = "Loading game..."/>
+			<translation id = "saving_game"			rev="2"		value = "Saving game"/>
+			<translation id = "loading_game" 		rev="2"		value = "Loading game"/>
+			<translation id = "autosave" 						value = "Autosave"/>
 			<translation id = "couldnt_save_game" 				value = "Game could not be saved!"/>
 			<translation id = "confirm_delete_save_game" 		value = "Yes, I want to delete this savegame."/>
 			<translation id = "delete_save_game" 				value = "Delete Savegame"/>
@@ -438,10 +490,10 @@
 
 	<namespace id = "achievements">
 		<translation id = "first_cyclotaur" 				rev="2"		value = "Let slip the bulls of war"/>
-		<translation id = "first_cyclotaur_description" 	value = "Create a Cyclotaur creature."/>
+		<translation id = "first_cyclotaur_description" 	value = "Spawn at least five Cyclotaur creatures."/>
 
 		<translation id = "conquer_all_portals"				value = "To the overworld!"/>
-		<translation id = "conquer_all_portals_description" value = "Conquer all the human-spawning portals in the dungeon."/>
+		<translation id = "conquer_all_portals_description" value = "Conquer at least five human-spawning portals in the dungeon."/>
 
 		<translation id = "catch_first_fish" 				value = "Bait!"/>
 		<translation id = "catch_first_fish_description" 	value = "Catch a fish by building a bridge out to a school of fish."/>
@@ -638,6 +690,7 @@
 			<translation id = "dark_mother_health_headline"			value = "Dark Mother Health"/>
 			<translation id = "dark_mother_health_desc"				value = "Here you see the Dark Mother's health. If it drops below zero you will loose the game!"/>
 			<translation id = "dark_mother_health_status"			value = "Health: %s1%"/>
+			<translation id = "dark_mother_left_click_to_zoom_in" 	value = "(Left-click to zoom in on the Dark Mother)"/>
 			<translation id = "evil_meter_headline" 				rev="2" value = "Evil meter"/>
 			<translation id = "evil_meter_desc" 					rev="2" value = "Torturing enemies in prison or destroying human buildings on the surface world will feed the evil meter."/>
 			<translation id = "evil_meter_status" 					value = "Power: %s1%"/>
@@ -888,7 +941,7 @@
 		<translation id = "achievements" 						value = "Loading achievements..."/>
 		<translation id = "misc" 								value = "Loading misc..."/>
 		<translation id = "ui" 									value = "Loading UI"/>
-		<translation id = "creating_game" 						value = "Creating game..."/>
+		<translation id = "creating_game" 		rev="2"			value = "Creating game"/>
 		<translation id = "initializing" 						value = "Initializing..."/>
 		<translation id = "precalculate_font_data" 				value = "Precalculating font data (one time only)"/>
 	</namespace>
@@ -909,9 +962,9 @@
 		<translation id = "bewing_vat_no_production_headline"		value = "Brewing Vat - Slow Production"/>
 		<translation id = "bewing_vat_no_production"				value = "Your beer production is getting slow. To brew beer you need water and antroots delivered to the brewing vat."/>
 		<translation id = "baking_table_no_production_headline"		value = "Baking Table - Slow Production"/>
-		<translation id = "baking_table_no_production"				value = "Your bread production is getting slow. To bake bread you need water and flour delivered to the baking table, and have wood available to get the oven burning."/>
+		<translation id = "baking_table_no_production"			rev="2"	value = "Your bread production is getting slow. To bake bread you need water and flour delivered to the baking table, and have coal available to get the oven burning."/>
 		<translation id = "barbeque_no_production_headline"		value = "Barbecue - Slow Production"/>
-		<translation id = "barbeque_no_production"				value = "Your barbecue production is getting slow. To barbecue you need fish or mice, and wood to be delivered to the barbecue."/>
+		<translation id = "barbeque_no_production"		rev="2"	value = "Your barbecue production is getting slow. To barbecue you need fish or mice, and coal to be delivered to the barbecue."/>
 	</namespace>
 
 	<namespace id = "items">
@@ -945,7 +998,7 @@
 		<translation id = "cleaver_headline"					value = "Cleaver"/>
 		<translation id = "cleaver" 							value="Once a useful tool for butchering animals, now a weapon with a similar purpose against our enemies."/>
 		<translation id = "coal_headline"						value = "Coal"/>
-		<translation id = "coal" 					rev="2"		value="A lump of fossilized carbon that is used primary in the crafting room as fuel. This mineral is easy to find as it can be mined out of every layer in the dungeon."/>
+		<translation id = "coal" 					rev="3"		value="A lump of fossilized carbon that is used primary as fuel and crafting. This mineral is easy to find as it can be mined out of every layer in the dungeon."/>
 		<translation id = "coal_warning"						value="Low storage warning. Mine more coal."/>
 		<translation id = "fish_headline"						value = "Fish"/>
 		<translation id = "fish" 								value="It's no surprise your Fishmen are extremely adept at catching fish as long as they have something sturdy to stand on. Build a bridge out to a school of fish and the Fishmen will dive in and catch a fish. Barbecue it and serve it in the bar to still your minions' hunger. "/>
@@ -1347,37 +1400,60 @@
 		
 	</namespace>
 
+	<namespace id = "victory_condition">
+		<translation id = "headline"							value = "Victory Condition"/>
+		<translation id = "kill_all"							value = "Kill all enemies in the dungeon and on the surface to win. Enemies left to kill: %s1."/>
+		<translation id = "kill_all_surface"					value = "Kill all enemies on the surface to win. Enemies left to kill: %s1."/>
+		<translation id = "kill_all_dungeon"					value = "Kill all enemies in the dungeon to win. Enemies left to kill: %s1."/>
+		<translation id = "kill_num_enemies"					value = "Kill %s1 enemies to win. Enemies killed: %s2 / %s1."/>
+		<translation id = "take_over_all_portals"				value = "Take over all portals to win. Portals taken over: %s2 / %s1."/>
+		<translation id = "take_over_num_portals"				value = "Take over %s1 portals to win. Portals taken over: %s2 / %s1."/>
+		<translation id = "survive_time"						value = "Survive %s1 minutes to win. Time %s2:%s3 / %s1:00."/>
+		<translation id = "stack_item"							value = "Stack %s1 %s2's to win. %s2's stacked: %s3 / %s1."/>
+		<translation id = "reach_spell_level"					value = "Reach spell level %s1 to win. Spell level reached: %s2 / %s1."/>
+		<translation id = "reach_crafting_level"				value = "Reach crafting level %s1 to win. Crafting level reached: %s2 / %s1."/>
+	</namespace>
+	
+	<namespace id = "generated">
+		<namespace id = "sandbox">
+			<translation id = "title"							value = "Sandbox game"/>
+			<translation id = "description"						value = "Start a random game!"/>
+		</namespace>
+	</namespace>
+	
 	<namespace id = "campaign">
 		<namespace id = "bed_and_breakfast">
+			<translation id = "title"							value = "1. Bed and Breakfast"/>
+			<translation id = "description"						value = "Keep your creatures needs satisfied."/>
 			<namespace id = "subtitles">
-				<translation id = "glorious_morning_1"			value = "Ah, the countryside is awash in joy and happiness on this glorious morning bathed in sunshine and smiles."/>
+				<translation id = "glorious_morning_1"			value = "Ah, the countryside. It's awash with joy and happiness on this glorious morning, all bathed in sunshine and smiles."/>
 				<translation id = "glorious_morning_2"			value = "It’s enough to make you sick!"/>
 				<translation id = "glorious_morning_3"			value = "Well now, up and at ‘em warden. Your guiding hand is needed if we are to show these blissful saps the error of their ways."/>
 
-				<translation id = "i_command_you"				value = "I command you to build an army to lay waste to those who stand above us, arrogant in their belief that they are the goodly, righteous, and true masters of this world."/>
+				<translation id = "i_command_you"				value = "I command you to build an army to lay waste to those who stand above us. They are arrogant in their belief that they are the goodly, righteous, and in control. They are unaware that we are the true masters of this world"/>
 
 				<translation id = "presenting_creatures"		value = "You will only have Piggehs and Imps join your dungeon for now."/>
 				<translation id = "presenting_imps"				value = "Imps are your main laborers and will do most any job in the dungeon."/>
-				<translation id = "presenting_piggehs"			value = "Piggehs only work in the Cookery and can be called to battle although they are in no hurry to get anywhere."/>
+				<translation id = "presenting_piggehs"			value = "Piggehs only work in the Cookery and can be called to battle, although they are in no hurry to get anywhere."/>
 
-				<translation id = "build_bar_room"				value = "The bar room should be your first construction. But first you must dig out an area to be able to place the Bar."/>
-				<translation id = "bar_room_finished"			value = "Great job! Now your creatures will have somewhere to sit while they are stuffing their faces."/>
+				<translation id = "build_bar_room"				value = "The bar room should be your first construction. But first you must dig out an area before you place the bar."/>
+				<translation id = "bar_room_finished"			value = "Great job! Now your creatures will have somewhere to sit while they stuff their faces."/>
 
-				<translation id = "build_farm_room"				value = "But this only works as long as we have food, and the main ingredients for making food are made in the farm room. So get to building a farm room!"/>
-				<translation id = "build_mill"					value = "So now we have a farm land where we can grow antroots. The next step is to build a mill so that we can grind the antroots and make flour."/>
+				<translation id = "build_farm_room"				value = "They can only stuff their greedy faces if they have food. The main ingredients for food are made in the farm room. You don't have a farm room... so get building a farm room!"/>
+				<translation id = "build_mill"					value = "Oh good! Now we have farmland where we can grow antroot. Next we need to build a mill to grind the roots and make flour."/>
 				<translation id = "no_water"					value = "As you may have noticed no antroots are growing in the farm land, this is because we don't have water."/>
-				<translation id = "build_well"					value = "A well should be placed somewhere close to the farm land, so sell a piece of the farm room and build the well there."/>
-				<translation id = "build_mouse_trap"			value = "Have you noticed the mouse infestation in the dungeon? Mice are a good protein source and Imps love to eat them, so construct a mouse trap and Imps will place antroot to draw them in."/>
-				<translation id = "farm_room_finished"			value = "Wonderful! Now you are able to produce water, antroots, flour and mice. All that's needed now is a cookery room so Piggehs can prepare the food."/>
+				<translation id = "build_well"					value = "A well should be placed somewhere close to the farmland, why don't you sell a piece of the farm room and build the well there?"/>
+				<translation id = "build_mouse_trap"			value = "Have you noticed the mouse infestation in the dungeon? Mice are a good source of protein, Imps love to eat them. Construct a mouse trap and Imps will place antroot to draw them in."/>
+				<translation id = "farm_room_finished"			value = "Wonderful! Now you are able to produce water, antroot , flour and mice. All that's needed now is a cookery, so Piggehs can prepare the food."/>
 
-				<translation id = "build_bed_room"				value = "Now that your creatures can fill their bellies, they'll need a place to sleep or exhausted creatures will have your head. Build them a bed room or else there will be a revolt."/>
+				<translation id = "build_bed_room"				value = "Now that your creatures can fill their bellies, they'll need a place to sleep or exhausted creatures will have your head. Better build them a bed room or else there could be a revolt."/>
 				<translation id = "build_farm_land_gate"		value = "I can see that your creatures can't reach the excavation area. Build a gate on the farm land so that they can pass through."/>
 
-				<translation id = "build_creature_beds"			value = "Now build three beds for each creature type. These beds are not only for sleeping, but also a place where your creatures can go to heal after battle."/>
+				<translation id = "build_creature_beds"			value = "Now build three beds for each type of creature. These beds are not only for sleeping, but also where your creatures can go to heal after battle."/>
 
-				<translation id = "build_cookery_room"			value = "Great job! Now it is finally time to build the cookery room."/>
+				<translation id = "build_cookery_room"			value = "Good work! Now it is finally time to build the cookery."/>
 
-				<translation id = "build_cookery_room_buildings"	value = "To be able to start producing food and beer you best build a baking table, a barbecue, and a brewing vat."/>
+				<translation id = "build_cookery_room_buildings"	value = "To be able to start producing food and beer, you need to build a baking table, a barbecue, and a brewing vat."/>
 
 				<translation id = "ready_for_the_next_step"			value = "Let's not get too pleased with ourselves. You've shown you can provide the basic needs for any dungeon, but you've yet to see combat. Let's see if you are ready to face those humans..."/>
 			</namespace>
@@ -1399,7 +1475,7 @@
 			<translation id = "message_build_mouse_trap" 		value = "Build a mouse trap at the location that is pointed out for you."/>
 			<translation id = "headline_build_bed_room"			value = "Build Bed Room"/>
 			<translation id = "message_build_bed_room" 			value = "Dig out the flashing area and build a bed room in the newly excavated area."/>
-			<translation id = "headline_build_farm_land_gate"	value = "Build a Farm Land Gate"/>
+			<translation id = "headline_build_farm_land_gate"	value = "Build a Gate"/>
 			<translation id = "message_build_farm_land_gate" 	value = "Open the radial menu over the farm land and select to build a farm land gate. Place it in the location that is pointed out for you."/>
 			<translation id = "headline_build_beds"				value = "Build Beds"/>
 			<translation id = "message_build_beds" 				value = "Build three Piggeh beds and three Imp beds in the newly built bedroom."/>
@@ -1410,7 +1486,9 @@
 		</namespace>
 		
 		<namespace id = "first_encounter">
-			<namespace id = "subtitles">
+			<translation id = "title"						value = "2. First Encounter"/>
+			<translation id = "description"					value = "Train your creatures and kill your enemies."/>
+			<namespace id = "subtitles">	
 				<translation id = "noisy_digging_1"				value = "Warden, with all your digging and building, it’s likely to draw the attention of those mirthful, mindless, meat bags on the surface."/>
 				<translation id = "noisy_digging_2"				value = "Portals connect the underside with the surface world, but their locations are many, and are scattered about the land."/>
 				<translation id = "noisy_digging_3"				value = "It’s not known exactly where they are, but it’s certain you should get to work preparing for battle."/>
@@ -1482,11 +1560,8 @@
 			<translation id = "headline_cancel_rally_flag"				value = "Cancel the rally flag"/>
 			<translation id = "message_cancel_rally_flag" 				value = "Cancel the rally flag by right clicking on the red flashing rally flag icon."/>
 
-			<translation id = "headline_dig_out_flashing_area"			value = "Dig"/>
-			<translation id = "message_dig_out_flashing_area" 			value = "Dig out the flashing area."/>
-
-			<translation id = "headline_build_bridges"					value = "Build bridges"/>
-			<translation id = "message_build_bridges" 					value = "Build bridges over the water."/>
+			<translation id = "headline_dig_out_flashing_area"		rev="2"		value = "Tunnels and bridges"/>
+			<translation id = "message_dig_out_flashing_area" 		rev="2"		value = "Dig out the flashing area and build bridges over the water. You can also build rock on the water to get over."/>
 
 			<translation id = "headline_find_the_humans"				value = "Find the humans"/>
 			<translation id = "message_find_the_humans"		 			value = "Dig and explore the dungeon until you find the humans."/>
@@ -1505,6 +1580,8 @@
 		</namespace>
 		
 		<namespace id = "storage_and_crafting">
+			<translation id = "title"									value = "3. Storage and Crafting"/>
+			<translation id = "description"								value = "Equip your creatures and expand your dungeon with efficiency."/>
 			<namespace id = "subtitles">
 				<translation id = "intro_1"								value = "The human threat is getting stronger now that we have made our presence known to them."/>
 				<translation id = "intro_2"								value = "Therefore you need to start crafting equipment for your creatures."/>
@@ -1575,6 +1652,8 @@
 		</namespace>
 		
 		<namespace id = "squads_and_spells">
+			<translation id = "title"									value = "4. Squads and spells"/>
+			<translation id = "description"								value = "Create squads, build prisons and use magic."/>	
 			<namespace id = "subtitles">
 				<translation id = "find_the_prince_1"					value = "There is a prince on surface that has promised his king he will eradicate us."/>
 				<translation id = "find_the_prince_2"					value = "He says we are evil..."/>
@@ -1615,6 +1694,8 @@
 		</namespace>
 		
 		<namespace id = "traps_and_catacombs">
+			<translation id = "title"									value = "5. Traps and Catacombs"/>
+			<translation id = "description"								value = "Build traps and raise ghosts to join your fight."/>
 			<namespace id = "subtitles">
 				<translation id = "intro_1"								value = "Pathetic humans! Don't they know that nothing can penetrate our defenses."/>
 				<translation id = "intro_2"								value = "It seems like the human King is getting angry with us and have started attacking us more frequently."/>
